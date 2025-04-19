@@ -1,0 +1,69 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "icon_theme": "Colored Zed Icons Theme Dark",
+    "show_edit_predictions": true,
+    "assistant": {
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "claude-3-7-sonnet"
+        },
+        "version": "2"
+    },
+    "theme": "Sublime Mariana",
+    "prettier": {
+        // Use regular Prettier json configuration:
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "languages": {
+        "Python": {
+            "hard_tabs": false,
+            "format_on_save": {
+                "external": {
+                    "command": "/opt/homebrew/bin/black",
+                    "arguments": [
+                        "-",
+                        "--line-length",
+                        "88"
+                    ]
+                }
+            }
+        },
+        "C++": {
+            "show_edit_predictions": false,
+            "formatter": {
+                "external": {
+                    "command": "clang-format",
+                    "arguments": [
+                        "--style=file:/Users/dzanijaivan/.config/clang-format/clang_format.txt"
+                    ]
+                }
+            },
+            "format_on_save": "on",
+            "tab_size": 4,
+            "hard_tabs": true
+        }
+    },
+    "tab_size": 4,
+    "buffer_font_weight": 500,
+    "buffer_font_family": "Inconsolata Nerd Font Mono",
+    "format_on_save": "on",
+    "vim_mode": true,
+    "relative_line_numbers": true,
+    "cursor_blink": false,
+    "cursor_shape": "block",
+    "ui_font_size": 12,
+    "buffer_font_size": 16,
+    "scrollbar": {
+        "show": "never"
+    }
+}

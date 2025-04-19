@@ -1,0 +1,68 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "show_inline_completions": true,
+    "assistant": {
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-4o"
+        },
+        "version": "2"
+    },
+    "theme": "Xcode Sunset",
+    "prettier": {
+        // Use regular Prettier json configuration:
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "languages": {
+        "Python": {
+            "hard_tabs": false,
+            "format_on_save": {
+                "external": {
+                    "command": "/opt/homebrew/bin/black",
+                    "arguments": [
+                        "-",
+                        "--line-length",
+                        "88"
+                    ]
+                }
+            }
+        },
+        "C++": {
+            "show_inline_completions": false,
+            "formatter": {
+                "external": {
+                    "command": "clang-format",
+                    "arguments": [
+                        "--style=file:/Users/dzanijaivan/Developer/zedConfig/clang_format.txt"
+                    ]
+                }
+            },
+            "format_on_save": "on",
+            "tab_size": 4,
+            "hard_tabs": true
+        }
+    },
+    "tab_size": 4,
+    "buffer_font_weight": 600,
+    "buffer_font_family": "Ubuntu Mono",
+    "format_on_save": "on",
+    "vim_mode": true,
+    "relative_line_numbers": true,
+    "cursor_blink": false,
+    "cursor_shape": "block",
+    "ui_font_size": 12,
+    "buffer_font_size": 16,
+    "scrollbar": {
+        "show": "never"
+    }
+}

@@ -1,0 +1,19 @@
+defaultIndent: '  '
+onlyOneBackUp: 1
+textWrapOptions:
+    columns: 80
+    multipleSpacesToSingle: 1
+    removeBlockLineBreaks: 1
+    when: before
+comments:
+    wrap: 0
+    inheritLeadingSpace: 0
+blocksFollow:
+    headings: 1
+    commentOnPreviousLine: 1
+    par: 1
+    blankLine: 1
+    verbatim: 1
+    filecontents: 1
+    other: "\\\\]|\\\\item(?:\\h|\\[)"
+# other config options...

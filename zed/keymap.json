@@ -1,0 +1,13 @@
+[
+    {
+        "bindings": {
+            "shift-tab": "editor::TabPrev",
+        }
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "alt-ž": null,
+        }
+    }
+]
