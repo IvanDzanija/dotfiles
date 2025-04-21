@@ -1,2 +1,2 @@
 # dotfiles
-MacOS on Apple Silicon 
+MacOS on Apple Silicon
