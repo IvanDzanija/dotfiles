@@ -121,7 +121,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # gem pristine clocale --version 0.0.4
 # echo $(ruby -e 'puts Gem.bindir')
-alias ls='colorls -a'
+alias ls='colorls -a -l'
 
 # Vim binds & zsh-vi-mode
 set -o vi
