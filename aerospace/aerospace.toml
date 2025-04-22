@@ -114,7 +114,7 @@ alt-shift-equal = 'resize smart +50'
 #alt-8 = 'workspace 8'
 #alt-9 = 'workspace 9'
 alt-b = 'workspace B'
-#alt-d = 'workspace D'
+alt-d = 'workspace D'
 #alt-p = 'workspace P'
 #alt-e = 'workspace E'
 alt-f = 'workspace F'
@@ -188,8 +188,7 @@ run = "move-node-to-workspace F"
 
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
-run = "move-node-to-workspace F"
-
+run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.mail'
