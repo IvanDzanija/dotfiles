@@ -13,6 +13,7 @@ return {
 				tex = { "latexindent" },
 				latex = { "latexindent" },
 				yaml = { "prettier" },
+				markdown = { "prettier" },
 			},
 
 			format_on_save = {
@@ -38,6 +39,17 @@ return {
 						"-w",
 					},
 					stdin = false,
+				},
+				["prettier"] = {
+					command = "prettier",
+					prepend_args = {
+						"--prose-wrap",
+						"always",
+						"--print-width",
+						"80",
+					},
+					args = { "--stdin-filepath", "$FILENAME" },
+					stdin = true,
 				},
 			},
 		})
