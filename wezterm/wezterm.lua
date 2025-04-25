@@ -5,7 +5,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
-config.font = wezterm.font("IBM PLex Mono")
+-- config.font = wezterm.font("IBM PLex Mono")
 config.font_size = 18
 config.window_decorations = "RESIZE"
 
@@ -14,9 +14,9 @@ config.enable_tab_bar = false
 -- For example, changing the color scheme:
 config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
 -- config.color_scheme = "NeoSolarized-dark"
-config.window_background_opacity = 0.85
-config.macos_window_background_blur = 10
-config.color_scheme = "Kanagawa Dragon (Gogh)"
+-- config.window_background_opacity = 0.85
+-- config.macos_window_background_blur = 10
+config.color_scheme = "Kanagawa (Gogh)"
 -- Croatian layout
 config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
