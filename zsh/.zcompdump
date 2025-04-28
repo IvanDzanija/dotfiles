@@ -2074,6 +2074,3 @@ autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
 _comp_assocs=( '' )
-
-#omz revision: 959b6cf5eed78f108dc6e0f46b53816f5168dd3a
-#omz fpath: /Users/dzanijaivan/.oh-my-zsh/plugins/git /Users/dzanijaivan/.oh-my-zsh/functions /Users/dzanijaivan/.oh-my-zsh/completions /Users/dzanijaivan/.oh-my-zsh/custom/functions /Users/dzanijaivan/.oh-my-zsh/custom/completions /Library/Ruby/Gems/2.6.0/gems/colorls-1.4.6/zsh /Users/dzanijaivan/.oh-my-zsh/plugins/git /Users/dzanijaivan/.oh-my-zsh/functions /Users/dzanijaivan/.oh-my-zsh/completions /Users/dzanijaivan/.oh-my-zsh/custom/functions /Users/dzanijaivan/.oh-my-zsh/custom/completions /Users/dzanijaivan/.oh-my-zsh/cache/completions /opt/homebrew/share/zsh/site-functions /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/5.9/functions

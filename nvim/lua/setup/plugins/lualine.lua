@@ -61,7 +61,7 @@ return {
 						color = { fg = "#ff9e64" },
 					},
 					{ "encoding" },
-					{ "fileformat" },
+					{ "fileformat", icons_enabled = false },
 					{ "filetype" },
 				},
 			},

@@ -6,6 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 export PATH="/opt/homebrew/bin:$PATH"
 
+# Redirect completion dump file to /tmp
+ZDOTDIR=${ZDOTDIR:-$HOME}
+ZCOMP_DUMP="/tmp/zcompdump-${USER}-${HOST}"
+
+autoload -Uz compinit
+compinit
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -138,6 +145,9 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 alias gcc="gcc-14 -lstdc++"
 alias g++="g++-14"
 alias matlab="/Applications/MATLAB_R2024b.app/bin/matlab"
+
+# Custom latexmkrc file
+export LATEXMKRCS="~/.config/latexmk/latexmkrc"
 
 tmp() {
     # Define the static directory where the file is located

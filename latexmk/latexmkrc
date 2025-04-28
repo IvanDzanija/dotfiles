@@ -1,0 +1,4 @@
+$pdflatex = 'pdflatex -interaction=nonstopmode %O %S';
+$pdf_previewer = "open -a Skim";
+$pdf_update_method = 2;
+$pdf_update_command = $pdf_previewer . " %S";
