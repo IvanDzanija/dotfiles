@@ -16,7 +16,19 @@ config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
 -- config.color_scheme = "NeoSolarized-dark"
 -- config.window_background_opacity = 0.85
 -- config.macos_window_background_blur = 10
-config.color_scheme = "Kanagawa (Gogh)"
+config.color_scheme = "Kanagawa Dragon (Gogh)"
+config.window_background_image = "/Users/dzanijaivan/Pictures/kanagawa.jpg"
+config.window_background_image_hsb = {
+	-- Darken the background image by reducing it to 1/3rd
+	brightness = 0.1,
+
+	-- You can adjust the hue by scaling its value.
+	-- a multiplier of 1.0 leaves the value unchanged.
+	hue = 0.5,
+
+	-- You can adjust the saturation also.
+	saturation = 1.0,
+}
 -- Croatian layout
 config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
