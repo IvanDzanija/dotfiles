@@ -20,14 +20,14 @@ config.color_scheme = "Kanagawa Dragon (Gogh)"
 config.window_background_image = "/Users/dzanijaivan/Pictures/kanagawa.jpg"
 config.window_background_image_hsb = {
 	-- Darken the background image by reducing it to 1/3rd
-	brightness = 0.1,
+	brightness = 0.025,
 
 	-- You can adjust the hue by scaling its value.
 	-- a multiplier of 1.0 leaves the value unchanged.
 	hue = 0.5,
 
 	-- You can adjust the saturation also.
-	saturation = 1.0,
+	saturation = 0.1,
 }
 -- Croatian layout
 config.send_composed_key_when_left_alt_is_pressed = true

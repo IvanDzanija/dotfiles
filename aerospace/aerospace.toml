@@ -180,7 +180,7 @@ if.app-id = 'com.github.wez.wezterm'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.librewolf'
+if.app-id = 'app.zen-browser.zen'
 run = "move-node-to-workspace B"
 
 [[on-window-detected]]
