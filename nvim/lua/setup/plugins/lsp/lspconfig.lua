@@ -100,6 +100,16 @@ return {
 					},
 				})
 			end,
+			["clangd"] = function()
+				lspconfig["clangd"].setup({
+					capabilities = capabilities,
+					cmd = {
+						"clangd",
+						"--background-index",
+						"--clang-tidy",
+					},
+				})
+			end,
 			["matlab_ls"] = function() -- 🆕 MATLAB-specific config
 				lspconfig["matlab_ls"].setup({
 					capabilities = capabilities,
