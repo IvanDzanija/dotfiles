@@ -147,7 +147,9 @@ alias gcc="gcc-14 -lstdc++"
 alias g++="g++-14"
 alias matlab="/Applications/MATLAB_R2024b.app/bin/matlab"
 
-alias gac='git add . && git commit -m "auto-commit" && git push'
+alias gupd='git add . && git commit -m "auto-commit" && git push'
+alias gsol='git add . && git commit -m "solved" && git push'
+
 # Custom latexmkrc file
 export LATEXMKRCS="~/.config/latexmk/latexmkrc"
 
