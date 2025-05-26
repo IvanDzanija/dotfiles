@@ -6,8 +6,7 @@ local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
 -- config.font = wezterm.font("ZedMono Nerd Font Mono")
-config.font = wezterm.font("Ubuntu Mono")
-config.font_size = 20
+config.font_size = 16
 config.window_decorations = "RESIZE"
 
 config.enable_tab_bar = true
@@ -17,7 +16,8 @@ config.use_fancy_tab_bar = false
 
 -- For example, changing the color scheme:
 config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
-config.color_scheme = "Solarized (light) (terminal.sexy)"
+-- config.color_scheme = "Solarized (light) (terminal.sexy)"
+config.color_scheme = "Gruvbox Dark (Gogh)"
 -- config.color_scheme = "Selenized Dark (Gogh)"
 -- config.color_scheme = "Kanagawa (Gogh)"
 --config.color_scheme = "dawnfox"
