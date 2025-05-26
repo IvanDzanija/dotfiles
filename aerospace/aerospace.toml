@@ -120,6 +120,7 @@ alt-r = 'workspace R'
 #alt-e = 'workspace E'
 alt-f = 'workspace F'
 alt-t = 'workspace T'
+alt-s = 'workspace S'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -143,7 +144,7 @@ alt-shift-m = 'move-node-to-workspace M'
 alt-shift-n = 'move-node-to-workspace N'
 alt-shift-o = 'move-node-to-workspace O'
 # alt-shift-p = 'move-node-to-workspace P'
-alt-shift-q = 'move-node-to-workspace Q'
+# alt-shift-q = 'move-node-to-workspace Q'
 alt-shift-r = 'move-node-to-workspace R'
 alt-shift-s = 'move-node-to-workspace S'
 alt-shift-t = 'move-node-to-workspace T'
@@ -179,8 +180,13 @@ alt-shift-l = ['join-with right', 'mode main']
 if.app-id = 'com.github.wez.wezterm'
 run = "move-node-to-workspace T"
 
+# Browsers
 [[on-window-detected]]
 if.app-id = 'net.waterfox.waterfox'
+run = "move-node-to-workspace B"
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Safari'
 run = "move-node-to-workspace B"
 
 [[on-window-detected]]
@@ -194,6 +200,10 @@ run = "move-node-to-workspace D"
 [[on-window-detected]]
 if.app-id = 'com.apple.mail'
 run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+run = "move-node-to-workspace S"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Preview'

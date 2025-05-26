@@ -24,7 +24,7 @@ return {
 			formatters = {
 				["clang-format"] = {
 					command = "clang-format",
-					args = { "--style=file:/Users/dzanijaivan/.config/clang-format/clang_format.txt" }, -- Uses .clang-format in your project directory
+					args = { "--style=file:/Users/dzanijaivan/.config/clang-format/clang_format.txt" },
 					stdin = true,
 				},
 				["ruff_format"] = {

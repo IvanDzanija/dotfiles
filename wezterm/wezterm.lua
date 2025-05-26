@@ -17,10 +17,12 @@ config.use_fancy_tab_bar = false
 
 -- For example, changing the color scheme:
 config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
--- config.color_scheme = "NeoSolarized-dark"
+config.color_scheme = "Solarized (light) (terminal.sexy)"
+-- config.color_scheme = "Selenized Dark (Gogh)"
+-- config.color_scheme = "Kanagawa (Gogh)"
+--config.color_scheme = "dawnfox"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 10
-config.color_scheme = "Selenized Dark (Gogh)"
 --config.window_background_image = "/Users/dzanijaivan/Pictures/kanagawa.jpg"
 -- config.window_background_image_hsb = {
 -- 	-- Darken the background image by reducing it to 1/3rd

@@ -129,7 +129,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # gem pristine clocale --version 0.0.4
 # echo $(ruby -e 'puts Gem.bindir')
-alias ls='colorls -a -l'
+alias ls='colorls -a'
 
 # Vim binds & zsh-vi-mode
 set -o vi
@@ -145,6 +145,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Custom functions and aliases
 alias gcc="gcc-14 -lstdc++"
 alias g++="g++-14"
+alias clang++="/opt/homebrew/opt/llvm/bin/clang++"
 alias matlab="/Applications/MATLAB_R2024b.app/bin/matlab"
 
 alias gupd='git add . && git commit -m "auto-commit" && git push'
