@@ -104,7 +104,8 @@ return {
 				lspconfig["clangd"].setup({
 					capabilities = capabilities,
 					cmd = {
-						"clangd",
+						"/opt/homebrew/opt/llvm/bin/clangd",
+						"--log=verbose",
 						"--background-index",
 						"--clang-tidy",
 					},
