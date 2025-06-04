@@ -17,8 +17,9 @@ config.use_fancy_tab_bar = false
 
 -- For example, changing the color scheme:
 config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
+config.color_scheme = "Rosé Pine Moon (base16)"
 -- config.color_scheme = "Solarized (light) (terminal.sexy)"
-config.color_scheme = "Gruvbox Dark (Gogh)"
+--config.color_scheme = "Gruvbox Dark (Gogh)"
 -- config.color_scheme = "Selenized Dark (Gogh)"
 -- config.color_scheme = "Kanagawa (Gogh)"
 --config.color_scheme = "dawnfox"
