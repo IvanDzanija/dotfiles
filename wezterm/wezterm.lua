@@ -9,7 +9,7 @@ local config = wezterm.config_builder()
 config.font_size = 16
 config.window_decorations = "RESIZE"
 
-config.max_fps = 60
+config.max_fps = 120
 config.enable_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
 config.tab_bar_at_bottom = true
@@ -42,5 +42,13 @@ config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
 -- config.use_ime = false
 
+config.keys = {
+	{ key = "w", mods = "CMD", action = wezterm.action({ CloseCurrentPane = { confirm = true } }) },
+	-- Split vertically with ⌘+D (common macOS terminal convention)
+	{ key = "d", mods = "CMD", action = wezterm.action({ SplitVertical = { domain = "CurrentPaneDomain" } }) },
+
+	-- Split horizontally with ⌘+Shift+D
+	{ key = "d", mods = "CMD|SHIFT", action = wezterm.action({ SplitHorizontal = { domain = "CurrentPaneDomain" } }) },
+}
 -- and finally, return the configuration to wezterm
 return config
