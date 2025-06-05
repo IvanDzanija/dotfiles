@@ -144,7 +144,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
 # Custom functions and aliases
 alias gcc="gcc-15 -lstdc++"
-alias g++="g++-15"
+alias g++="g++-15 -std=c++23"
 alias clang++="/opt/homebrew/opt/llvm/bin/clang++"
 alias matlab="/Applications/MATLAB_R2024b.app/bin/matlab"
 
