@@ -5,8 +5,8 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
--- config.font = wezterm.font("ZedMono Nerd Font Mono")
-config.font_size = 16
+config.font = wezterm.font("SFMono Nerd Font", { weight = "Regular", stretch = "Normal", style = "Normal" })
+config.font_size = 15
 config.window_decorations = "RESIZE"
 
 config.max_fps = 120
@@ -17,7 +17,7 @@ config.use_fancy_tab_bar = false
 
 -- For example, changing the color scheme:
 config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
-config.color_scheme = "Tokyo Night Storm (Gogh)"
+--config.color_scheme = "Tokyo Night Storm (Gogh)"
 --config.color_scheme = "Rosé Pine Moon (base16)"
 -- config.color_scheme = "Solarized (light) (terminal.sexy)"
 --config.color_scheme = "Gruvbox Dark (Gogh)"
@@ -26,18 +26,6 @@ config.color_scheme = "Tokyo Night Storm (Gogh)"
 --config.color_scheme = "dawnfox"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 10
---config.window_background_image = "/Users/dzanijaivan/Pictures/kanagawa.jpg"
--- config.window_background_image_hsb = {
--- 	-- Darken the background image by reducing it to 1/3rd
--- 	brightness = 0.025,
---
--- 	-- You can adjust the hue by scaling its value.
--- 	-- a multiplier of 1.0 leaves the value unchanged.
--- 	hue = 0.5,
---
--- 	-- You can adjust the saturation also.
--- 	saturation = 0.1,
--- }
 -- Croatian layout
 config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
