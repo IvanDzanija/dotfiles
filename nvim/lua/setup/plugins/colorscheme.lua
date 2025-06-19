@@ -3,7 +3,10 @@ return {
 	--	"Tsuzat/NeoSolarized.nvim",
 	--	"maxmx03/solarized.nvim",
 	--"rebelot/kanagawa.nvim",
-	"blazkowolf/gruber-darker.nvim",
+	-- "savq/melange-nvim",
+	"navarasu/onedark.nvim",
+	-- "marko-cerovac/material.nvim",
+	-- "blazkowolf/gruber-darker.nvim",
 	--"rose-pine/neovim",
 	--	"EdenEast/nightfox.nvim",
 	--	"ellisonleao/gruvbox.nvim",
@@ -12,6 +15,7 @@ return {
 	transparent = true,
 	config = function()
 		vim.o.termguicolors = true
+		style = "cool"
 
 		--vim.o.background = "light"
 		--vim.cmd("colorscheme tokyonight-storm")
@@ -21,6 +25,9 @@ return {
 		--vim.cmd("colorscheme gruvbox")
 		--vim.cmd("colorscheme rose-pine")
 		--vim.cmd("colorscheme dawnfox")
-		vim.cmd("colorscheme gruber-darker")
+		-- vim.cmd("colorscheme gruber-darker")
+		--	vim.cmd("colorscheme melange")
+		-- vim.cmd("colorscheme material")
+		vim.cmd("colorscheme onedark")
 	end,
 }

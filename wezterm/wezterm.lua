@@ -24,6 +24,8 @@ config.color_scheme_dirs = { "~/.config/wezterm/colors/" }
 -- config.color_scheme = "Selenized Dark (Gogh)"
 -- config.color_scheme = "Kanagawa (Gogh)"
 --config.color_scheme = "dawnfox"
+-- config.color_scheme = "One Dark (Gogh)"
+config.color_scheme = "MaterialOcean"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 10
 -- Croatian layout
