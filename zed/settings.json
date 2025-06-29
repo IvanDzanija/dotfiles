@@ -16,7 +16,7 @@
         },
         "version": "2"
     },
-    "theme": "Sublime Mariana",
+    "theme": "Quiet Light",
     "prettier": {
         // Use regular Prettier json configuration:
         "trailingComma": "es5",

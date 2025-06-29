@@ -6,10 +6,10 @@ return {
 		vim.g.copilot_assume_mapped = true
 		vim.g.copilot_filetypes = {
 			["*"] = true,
-			--			["c++"] = false,
-			--			["cpp"] = false,
-			--			["c"] = false,
-			--			["python"] = false,
+			["c++"] = false,
+			["cpp"] = false,
+			["c"] = false,
+			["python"] = false,
 		}
 	end,
 }
