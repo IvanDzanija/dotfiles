@@ -74,7 +74,7 @@ return {
 		vim.lsp.config("clangd", {
 			capabilities = capabilities,
 			cmd = {
-				"/opt/homebrew/opt/llvm/bin/clangd",
+				"usr/bin/clangd",
 				"--log=verbose",
 				"--background-index",
 				"--clang-tidy",
