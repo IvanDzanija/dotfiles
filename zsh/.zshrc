@@ -1,3 +1,4 @@
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -145,7 +146,8 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Custom functions and aliases
 alias gcc="gcc-15 -lstdc++"
 alias g++="g++-15 -std=c++23"
-alias clang++="/opt/homebrew/opt/llvm/bin/clang++"
+#alias clang++="/opt/homebrew/opt/llvm/bin/clang++"
+#alias clangd="/opt/homebrew/opt/llvm/bin/clangd"
 alias matlab="/Applications/MATLAB_R2024b.app/bin/matlab"
 
 alias gupd='git add . && git commit -m "auto-commit" && git push'
@@ -172,10 +174,10 @@ tmp() {
 }
 export PATH="/opt/homebrew/opt/icu4c@76/sbin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c@76/bin:$PATH"
-# export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
-# export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
-export LDFLAGS="-L/opt/homebrew/opt/icu4c@76/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/icu4c@76/include"
+export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
+#export LDFLAGS="-L/opt/homebrew/opt/icu4c@76/lib"
+#export CPPFLAGS="-I/opt/homebrew/opt/icu4c@76/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/icu4c@76/lib/pkgconfig"
 export MATLAB_JAVA=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
 

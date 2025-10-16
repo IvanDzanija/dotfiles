@@ -73,11 +73,9 @@ return {
 		})
 		vim.lsp.config("clangd", {
 			capabilities = capabilities,
-			cmd = {
-				"usr/bin/clangd",
-				"--log=verbose",
-				"--background-index",
-				"--clang-tidy",
+			cmd = { "/opt/homebrew/opt/llvm/bin/clangd", "--background-index", "--clang-tidy", "--log=verbose" },
+			init_options = {
+				fallbackFlags = { "-std=c++20" },
 			},
 		})
 		vim.lsp.config("matlab_ls", {
