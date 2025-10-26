@@ -115,12 +115,15 @@ alt-shift-equal = 'resize smart +50'
 #alt-9 = 'workspace 9'
 alt-b = 'workspace B'
 alt-d = 'workspace D'
-alt-r = 'workspace R'
-# alt-p = 'workspace P'
-#alt-e = 'workspace E'
+alt-e = 'workspace E'
 alt-f = 'workspace F'
-alt-t = 'workspace T'
+alt-g = 'workspace G'
+alt-i = 'workspace I'
+alt-m = 'workspace M'
+# alt-p = 'workspace P'
+alt-r = 'workspace R'
 alt-s = 'workspace S'
+alt-t = 'workspace T'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1'
@@ -178,6 +181,10 @@ alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'com.github.wez.wezterm'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
+if.app-id = 'net.kovidgoyal.kitty'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
