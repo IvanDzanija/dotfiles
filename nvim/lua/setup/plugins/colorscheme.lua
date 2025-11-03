@@ -17,13 +17,13 @@ return {
 	transparent = true,
 	config = function()
 		vim.o.termguicolors = true
-		vim.o.background = "dark"
+		--		vim.o.background = "dark"
 		--	vim.cmd("colorscheme moonfly")
 		--		vim.cmd("colorscheme vscode")
-		--		vim.cmd("colorscheme tokyonight-storm")
+		vim.cmd("colorscheme tokyonight-storm")
 		--	vim.cmd("colorscheme NeoSolarized")
 		--vim.cmd("colorscheme kanagawa")
-		vim.cmd("colorscheme wildcharm")
+		--		vim.cmd("colorscheme wildcharm")
 		--	vim.cmd("colorscheme solarized")
 		--vim.cmd("colorscheme gruvbox")
 		--vim.cmd("colorscheme rose-pine")
