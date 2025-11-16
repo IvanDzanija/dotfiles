@@ -1,5 +1,0 @@
-IndentWidth: 4
-TabWidth: 4
-AlignAfterOpenBracket: Align
-SpacesInAngles: false
-UseTab: Never

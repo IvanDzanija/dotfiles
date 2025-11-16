@@ -11,7 +11,7 @@ return {
 	-- "blazkowolf/gruber-darker.nvim",
 	--"rose-pine/neovim",
 	--	"EdenEast/nightfox.nvim",
-	--	"ellisonleao/gruvbox.nvim",
+	-- "ellisonleao/gruvbox.nvim"
 	priority = 1000,
 	lazy = false,
 	transparent = true,
@@ -25,7 +25,7 @@ return {
 		--vim.cmd("colorscheme kanagawa")
 		--		vim.cmd("colorscheme wildcharm")
 		--	vim.cmd("colorscheme solarized")
-		--vim.cmd("colorscheme gruvbox")
+		-- vim.cmd("colorscheme gruvbox")
 		--vim.cmd("colorscheme rose-pine")
 		--vim.cmd("colorscheme dawnfox")
 		-- vim.cmd("colorscheme gruber-darker")

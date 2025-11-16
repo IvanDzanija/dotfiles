@@ -22,15 +22,15 @@ return {
 				timeout_ms = 1000,
 			},
 			formatters = {
+
 				["clang-format"] = {
-					command = "clang-format",
-					args = { "--style=file:/Users/dzanijaivan/.config/clang-format/clang_format.txt" },
+					command = "/Users/dzanijaivan/.config/format-clang.sh",
 					stdin = true,
 				},
 				["ruff_format"] = {
-					command = "ruff", -- Ensure Ruff is installed and accessible
+					command = "ruff",
 					args = { "format", "--stdin-filename", "$FILENAME", "--quiet" },
-					stdin = true, -- Send file contents to stdin
+					stdin = true,
 				},
 				["latexindent"] = {
 					command = "latexindent",
