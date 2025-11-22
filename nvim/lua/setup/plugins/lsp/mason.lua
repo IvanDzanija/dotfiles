@@ -29,7 +29,9 @@ return {
 			ensure_installed = {
 				"clangd",
 				"ruff",
+				"lua_ls",
 				"texlab",
+				-- "ty",
 			},
 		})
 

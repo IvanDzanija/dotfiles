@@ -5,7 +5,7 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true
 opt.ruler = true
-opt.textwidth = 80 -- default textwidth
+opt.textwidth = 100 -- default textwidth
 
 opt.tabstop = 4
 opt.shiftwidth = 4

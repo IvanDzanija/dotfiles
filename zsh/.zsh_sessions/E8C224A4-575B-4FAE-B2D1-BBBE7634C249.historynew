@@ -1,0 +1,13 @@
+uv run jupyter
+ls 
+uv sync 
+uv run jupyter
+cd ..
+ls 
+cd Lab6
+ls 
+source .venv/bin/activate
+uv run jupyter
+nvim pyproject.toml
+uv run jupyter-notebook 
+uv add jupyter

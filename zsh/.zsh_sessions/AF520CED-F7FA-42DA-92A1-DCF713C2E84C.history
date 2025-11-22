@@ -1,0 +1,1008 @@
+./release_build_and_test.sh
+cd ...
+ls 
+./release_build_and_test.sh
+cd ..
+cd clang-release
+cd tests
+ls 
+cd math
+ls 
+./LinAlgTests
+cd 
+cd Desktop
+ls 
+cd test
+ls 
+nvim hello.py
+uv run hello.py
+nvim hello.py
+uv run hello.py
+gupd 
+ls 
+nvim testing.py 
+nvim chol.py 
+source .venv/bin/activate
+ls 
+nvim chol.py
+./release_build_and_test.sh
+gupd 
+nvim .
+kitten themes
+cd 
+cd .config
+ls 
+nvim nvim/lua/setup/plugins
+nvim .
+\:q
+kitten themes
+clear 
+nvim .
+./release_build_and_test.sh
+./debug_build_and_test.sh
+kitten themes
+clear 
+nvim nvim/lua/setup/plugins
+nvim .
+nvim matmul.cpp
+/opt/homebrew/opt/llvm/bin/clang++ -O3 -ffast-math -march=native -funroll-loops matmul.cpp -o matmul.out -fopenmp
+./matmul.out
+nvim matmul.cpp
+/opt/homebrew/opt/llvm/bin/clang++ -O3 -ffast-math -march=native -funroll-loops matmul.cpp -o matmul.out -fopenmp
+./matmul.out
+nvim hello.py
+uv run hello.py
+nvim .
+g++ -O3 -fopenmp transform_vs_formp.cpp -o test -march=native 
+./test
+nvim .
+g++ -O3 -fopenmp transform_vs_formp.cpp -o test -march=native 
+./test
+nvim .
+cd 
+cd .config/
+nvim nvim
+nvim 
+nvim .
+clang-format include/MafLib/math/linalg/MatrixOperators.hpp
+nvim .
+cd 
+cd .config
+ls 
+cd clang-format
+nvim .
+mv /Users/dzanijaivan/.config/clang-format/clang_format.txt /Users/dzanijaivan/.clang-format
+ls 
+cd ..
+rm -rf clang-format
+ls 
+cd ..
+ls 
+nvim .
+nvim .clang-format
+nvim .
+nvim .clang-format
+cd Developer/competitive_programming
+ls 
+nvim cp_template.cpp
+nvim .
+mv /Users/dzanijaivan/.config/nvim/format-clang.sh ..
+ls 
+cd ..
+ls 
+chmod +x format-clang.sh
+nvim .
+nvim format-clang.sh
+nvim .
+gupd 
+nvim kitty/ssh.conf
+clear 
+./debug_build_and_test.sh
+gupd 
+nvim tests
+./debug_build_and_test.sh
+./release_build_and_test.sh
+cd tests/math
+./release_build_and_test.sh
+ls 
+./LinAlgTests
+./release_build_and_test.sh
+./LinAlgTests
+gupd 
+clear 
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/
+ls 
+cd PIK
+ls 
+nvim Lab_vjezbe
+cd 
+cd Developer/PersonalFramework
+ls 
+./debug_build_and_test.sh
+nvim .
+gupd 
+cd include/MafLib
+find . -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -print0 | xargs -0 wc -l
+cd ..
+ls 
+cd tests
+find . -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -print0 | xargs -0 wc -l
+clear 
+cd ..
+ls 
+mkdir Primjeri
+cd Pr
+cd Primjeri
+ls 
+mv ~/Downloads/openmp-examples-1part.zip
+ls 
+mv ~/Downloads/openmp-examples-1part.zip .
+ls 
+unzip openmp-examples-1part.zip
+ls 
+nvim .
+clear 
+ls 
+rm -rf __MACOSX
+ls 
+rm -rf openmp-examples-1part.zip
+ls 
+mkdir Dodatni_zadatci
+nvim .
+touch Dodatni_zadatci/pauziranje_dretvi.c
+cd Dodatni_zadatci
+ls 
+gcc -fopenmp pauziranje_dretvi.c
+./a.out
+export OMP_NUM_THREADS=12
+./a.out
+export OMP_NUM_THREADS=12
+./a.out
+gcc -fopenmp pauziranje_dretvi.c
+./a.out
+gcc -O2 -fopenmp pauziranje_dretvi.c
+./a.out
+gcc -O2 -fopenmp pauziranje_dretvi.c
+./a.out
+gcc -O2 -fopenmp pauziranje_dretvi.c && ./a.out
+gcc -O2  pauziranje_dretvi.c && ./a.out
+gcc -O2 -fopenmp pauziranje_dretvi.c && ./a.out
+OMP_NUM_THREADS=12 ./a.out
+cd ..
+lă�s 
+kd 
+ls 
+gcc -O2 -fopenmp p00-basic.c && ./a.out
+ls 
+rm -rf p00-hauba.c
+ls 
+gcc -O2 -fopenmp p00-hello-omp.c && ./a.out
+cd Dodatni_zadatci
+gcc -O2 -fopenmp pauziranje_dretvi.c && ./a.out
+echo OMP_NUM_THREADS
+echo $OMP_NUM_THREADS
+gcc -O2 -fopenmp pauziranje_dretvi.c && ./a.out
+gcc -fopenmp pauziranje_dretvi.c && ./a.out
+./a.out
+gcc -fopenmp pauziranje_dretvi.c && ./a.out
+touch pi_integral.c
+touch gemm.c
+gcc -fopenmp -march=native -ffast-math gemm.c
+g++ -O3 -fopenmp -march=native -ffast-math gemm.c
+./a.out
+gcc -fopenmp pi_integral.c && ./a.out
+export OMP_NUM_THREADS=1
+./a.out
+gcc -fopenmp pi_integral.c && ./a.out
+c,lear 
+clear 
+touch pi_integral_reduction.c
+gcc -fopenmp pi_integral_reduction.c && ./a.out
+gcc -fopenmp pi_integra.c && ./a.out
+gcc -fopenmp pi_integral.c && ./a.out
+gcc -fopenmp pi_integral_reduction.c && ./a.out
+ls 
+gcc -fopenmp montecarlo.c 
+OMP_NUM_THREADS=4 ./multi 5000000
+OMP_NUM_THREADS=4 ./a.out 5000000
+gcc -fopenmp montecarlo.c 
+OMP_NUM_THREADS=4 ./a.out 5000000
+gcc -fopenmp montecarlo.c 
+OMP_NUM_THREADS=4 ./a.out 5000000
+gcc -fopenmp montecarlo.c 
+OMP_NUM_THREADS=4 ./a.out 5000000
+gcc -fopenmp montecarlo.c 
+OMP_NUM_THREADS=4 ./a.out 5000000
+OMP_NUM_THREADS=4 ./a.out 50000000
+OMP_NUM_THREADS=4 ./a.out 500000000
+OMP_NUM_THREADS=4 ./a.out 5000000000
+OMP_NUM_THREADS=4 ./a.out 5000000000 5
+gcc -fopenmp montecarlo.c 
+OMP_NUM_THREADS=4 ./a.out 5000000
+export OMP_NUM_THREADS=12
+./a.out 5000000
+OMP_NUM_THREADS=4 ./a.out 5000000
+OMP_NUM_THREADS=4 ./a.out 50000000
+OMP_NUM_THREADS=4 ./a.out 500000000
+OMP_NUM_THREADS=4 ./a.out 5000000000
+gcc -fopenmp montecarlo.c 
+./a.out 5000000
+gcc -fopenmp montecarlo.c 
+./a.out 5000000
+gcc -fopenmp montecarlo.c 
+./a.out 5000000
+gcc -fopenmp montecarlo.c 
+./a.out 5000000
+./a.out 500000
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+export OMP_NUM_THREADS=16
+./a.out 100000000
+OMP_NUM_THREADS=4 ./a.out 5000000000
+export OMP_NUM_THREADS=12
+./a.out 100000000
+export OMP_NUM_THREADS=64
+./a.out 100000000
+clear 
+ls 
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+export OMP_NUM_THREADS=1
+./a.out 100000000
+export OMP_NUM_THREADS=2
+./a.out 100000000
+export OMP_NUM_THREADS=4
+./a.out 100000000
+export OMP_NUM_THREADS=8
+./a.out 100000000
+export OMP_NUM_THREADS=12
+./a.out 100000000
+gcc -fopenmp kuki.c 
+./a.out 100000000
+nvim montecarlo.c
+cd 
+cd Downloads
+ls 
+rm -rf montecarlo.c
+ls 
+rm -rf PIK\ -\ 1.\ lab\ -\ 202526.pdf
+ls 
+open vcc-paper.pdf
+cd 
+cd tes
+cd Desktop/test
+ls 
+nvim eigen_test.cpp
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen
+brew list eign 
+brew list eigen 
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include/eigen3/Eigen/
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include/eigen3/
+clear 
+ls 
+./eigen
+nvim .
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include/eigen3/
+./eigen
+nvim eigen_test.cpp
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include/eigen3/
+./eigen
+nvim eigen_test.cpp
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include/eigen3/
+./eigen
+nvim eigen_test.cpp
+clang++ -O3 -march=native -ffast-math eigen_test.cpp -o eigen -I/opt/homebrew/Cellar/eigen/3.4.1/include/eigen3/
+./eigen
+nvim hello.py
+uv run hello.py
+cd 
+cd Developer/PersonalFramework
+ls 
+nvim .
+./release_build_and_test.sh
+cd tests/math/
+./LinAlgTests
+g++ eigen_test.cpp \\
+    -I /opt/homebrew/include/eigen3 \\
+    -O3 -march=native -ffast-math -funroll-loops \\
+    -fopenmp \\
+    -o eigen
+./eigen
+cd build/clang-release/tests/math/
+./LinAlgTests
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/
+ls 
+cd PIK
+ls 
+cd Lab_vjezbe/
+ls 
+nvim montecarlo.c
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+gcc -fopenmp montecarlo.c 
+./a.out 100000000
+./a.out 5000000
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/
+ls 
+cd NASP
+ls 
+cd Skripta
+ls 
+open Skripta.pdf
+cd 
+cd Developer/PersonalFramework
+ls 
+kitten themes
+clear 
+ls 
+nvim .
+cd 
+cd ,conf
+cd .config
+nvim nvim/lua/setup/plugins
+nvim .
+clear 
+ls 
+oh-my-zsh
+brew list zsh
+brew list | grep zsh
+cd 
+cd .config
+ls 
+cd ..
+ls 
+nvim .config
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+ls 
+colorls 
+color 
+brew list | grep color 
+cd 
+cd 
+ls 
+cd Developer
+ls 
+cd competitive_programming
+ls 
+ls 
+cd 
+cd Developer/PersonalFramework
+ls 
+colorls 
+ls 
+colorls 
+gupd 
+mkdir oh-my-posh
+ls 
+rm -rf oh-my-posh
+ls 
+git status 
+ls 
+mv my-omp.json oh-my-posh
+ls 
+ls 
+ls 
+nvim test.py 
+oh-my-posh print debug
+oh-my-posh print debug
+oh-my-posh print config --config ~/.config/oh-my-posh/zash.omp.json
+grep -R "oh-my-posh init" ~/.zshrc ~/.bashrc ~/.config/fish/config.fish
+oh-my-posh --config ~/.config/oh-my-posh/zash.omp.json
+oh-my-posh config validate --config ~/.config/oh-my-posh/zash.omp.json\
+
+oh-my-posh --config ~/.config/oh-my-posh/zash.omp.json\
+
+oh-my-posh --config ~/.config/oh-my-posh/my-omp.json\
+
+oh-my-posh -v 
+oh-my-posh --version 
+oh-my-posh --config 
+oh-my-posh --config string 
+oh-my-posh debug 
+oh-my-posh config edit\
+
+oh-my-posh de
+oh-my-posh debug
+exec zsh 
+rm -rf /Users/dzanijaivan/.cache/oh-my-posh
+ls 
+rm -rf /Users/dzanijaivan/.cache/oh-my-posh
+ckear 
+clear 
+oh-my-posh config get cache-pat
+oh-my-posh config get cache-path
+oh-my-posh enable reload
+exec zsh
+oh-my-posh enable reload
+exec zsh
+oh-my-posh debug
+rm -rf oh-my-posh
+ls 
+oh-my-posh debug 
+nvim zsh/.zshrc
+mkdir oh-my-posh
+touch my-omp.json
+nvim my-omp.json
+cd 
+ls 
+nvim .powerlevel10k
+rm -rf .powerlevel10k
+rm -rf .p10k.zsh
+ls 
+d 
+cd 
+cd Developer/PersonalFramework
+ls 
+nvim .
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+nvim test.py 
+nvim A.in
+cd 
+cd Developer/competitive_programming/EverybodyCodes/2025
+ls 
+nvim .
+gupd 
+rm -rf test.py
+gupd 
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+130888180219820
+130888180219820
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+k
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+cd 
+cd Developer/PersonalFramework
+ls 
+nvim .
+cd 
+cd Developer/competitive_programming
+ls 
+cd EverybodyCodes/2025
+ls 
+ls color -a 
+ls 
+nvim quest11.py
+cd 
+cd Developer/SecondBrain
+ls 
+cd resources
+ls 
+cd Books
+ls 
+open Competive_Programming_Handbook.pdf
+cd 
+cd Desktop
+ls 
+nvim test.py 
+nvim test.cpp
+rm -rf test.*
+ls 
+pypy test.py
+1 5 7
+pypy test.py
+pypy test.py
+pypy test.py
+uv run test.py
+uv run test.py
+uv run test.py
+uv run test.py
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+nvim test.py
+gpp test.cpp
+nvim test.py
+pypy3 test.py
+pypy3 test.py
+gpp test.cpp
+gpp test.cpp
+gpp test.cpp
+nvim .
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/
+cd NASP
+ls 
+mkdir Prezentacije
+cd Prezentacije
+mv ~/Downloads/06_DynamicProgramming.pdf .
+open 06_DynamicProgramming.pdf
+pypy quest11.py
+pypy quest11.py
+nvim help.py
+pypy help.py
+uv help.py
+uv run help.py
+nvim help.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+pypy quest11.py
+uv run quest11.py
+uv run quest11.py
+uv run quest11.py
+uv run quest11.py
+uv run quest11.py
+uv run quest11.py
+uv run quest11.py
+pypy quest11.py
+uv run quest11.py
+uv run quest11.py
+nvim A.in
+cd 
+cd .config
+ls 
+nvim zsh/.zshrc
+ls 
+cd 
+cd Developer/competitive_programming
+ls 
+nvim template.py
+nvim template.py
+ls 
+ls 
+mv cp_template.cpp templates/template.cpp
+mv template.py templates
+ls 
+ls 
+tmp_cpp 01.cpp 
+ls 
+nvim 01.cpp
+rm -rf 01.cpp
+ls 
+tmp_py 01.py
+ls 
+nvim 01.py
+rm -rf 01.py
+ls 
+cd 
+cd .config
+ls 
+nvim zsh/.zshrc
+cd 
+cd Developer/competitive_programming
+ls 
+cd templates
+ls 
+nvim .
+clear 
+cd 
+ls 
+tmp_cpp 01
+ls 
+tmp_py 02
+ls 
+rm -rf 01.cpp 02.py
+ls 
+cd ž
+cd 
+cd Downloads
+ls 
+ls 
+ls 
+mkdir Compression
+cd Compression
+ls 
+touch Huffman.py
+cd ..
+nvim .
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/NASP
+ls 
+cd Skripta
+ls 
+open Skripta.pdf
+cd ..
+cd ..pre
+cd Prezentacije
+ls 
+mv ~/Downloads/07_CompressionAlgorithms.pdf .
+ls 
+mv ~/Downloads/07_CompressionAlgorithms\[1\].pdf ./07_CompressionAlgorithms.pdf 
+ls 
+open 07_CompressionAlgorithms.pdf
+clear 
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/NASP
+ls 
+cd Algoritmi
+cd 
+cd .config/nvim
+nvim .
+pypy quest11.py
+pypy quest12.py
+pypy3 quest12.py
+nvim A.in
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+cd 
+cd Developer/competitive_programming/EverybodyCodes/2025
+ls 
+nvim A.in
+nvim quest12.py
+clear 
+gupd 
+pypy3 quest12.py
+nvim quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+uv run quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+pypy3 quest12.py
+cd Compression
+ls 
+uv run Huffman.py
+ls 
+uv run HuffmanTest.py
+uv run HuffmanTest.py
+uv run HuffmanTest.py
+ls 
+touch LZ77.py 
+nvim HuffmanTest.py
+uv run HuffmanTest.py
+nvim HuffmanTest.py
+uv run HuffmanTest.py
+nvim HuffmanTest.py
+uv run HuffmanTest.py
+nvim HuffmanTest.py
+uv run HuffmanTest.py
+clear
+gupd 
+ls 
+cd ..
+ls 
+nvim .
+gupd 
+ls 
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/NASP
+ls 
+cd Prezentacije
+ls 
+ls 
+mv ~/Downloads/05_LinearProgramming.pdf .
+d 
+nvim test 
+clear 
+cd Documents/FER/Diplomski/1.\ SEM/NASP
+ls 
+cd Algoritmi/o
+cd Algoritmi/o
+cd Algoritmi/
+nvim .
+cd 
+cd Developer/competitive_programming
+ls 
+cd EverybodyCodes/2025
+ls 
+tmp
+source ~/.config/zsh/.zshrc
+clear 
+ls 
+tmp
+tmp o1
+tmp_py quest12
+ls 
+nvim .
+gupd 
+cd ..
+ls 
+cd ..
+gupd 
+nvim templates/template.py
+clear 
+gupd 
+cd 
+cd Documents/FER/Diplomski/1.\ SEM/NASP
+ls 
+cd Algoritmi
+ls 
+nvim .
+gupd 
+ls 
+nvim .
+cd Developer/competitive_programming/CSES
+ls 
+mkdir String
+cd String
+ls 
+tmp_cpp  finding_patterns.cpp
+nvim finding_patterns.cpp.cpp
+rm -rf finding_patterns.cpp.cpp
+tmp_cpp  finding_patterns
+nvim finding_patterns.cpp
+rm -rf finding_patterns.cpp
+clear 
+ cd 
+cd Developer/SecondBrain/resources/Books
+ls 
+open Competive_Programming_Handbook.pdf
+gcc counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+2
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+2
+2
+gpp counting_bits.cpp
+g++ -std=c++20 counting_bits.cpp 
+ls 
+./a.out
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+gpp counting_bits.cpp
+cd 
+cd Developer/competitive_programming/templates
+ls 
+cd ..
+cd 
+cd .config
+ls 
+nvim zsh/.zshrc
+where gpp
+sudo vim /usr/local/bin/gpp
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+pypy3 quest13.py
+d 
+cd 
+cd Developer/competitive_programming/EverybodyCodes/2025
+tmp_py quest13
+nvim.
+nvim .
+cd ...
+cd ...
+cd ..
+cd ..
+cd ...
+cd ..
+ls 
+gupd 
+cd competitive_programming
+ls 
+gupd 
+nvim A.in
+ls 
+git status 
+ls 
+ls -l
+ls 
+ls -l

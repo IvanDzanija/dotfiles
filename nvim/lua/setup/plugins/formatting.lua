@@ -22,7 +22,6 @@ return {
 				timeout_ms = 1000,
 			},
 			formatters = {
-
 				["clang-format"] = {
 					command = "/Users/dzanijaivan/.config/format-clang.sh",
 					stdin = true,

@@ -21,7 +21,7 @@ vim:fileencoding=utf-8:foldmethod=marker
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-font_size 16.0
+font_size 14.0
 
 #: Font size (in pts).
 
@@ -2937,7 +2937,7 @@ map cmd+9 goto_tab 9
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night Storm
+# Selenized Light
 include current-theme.conf
 # END_KITTY_THEME
 

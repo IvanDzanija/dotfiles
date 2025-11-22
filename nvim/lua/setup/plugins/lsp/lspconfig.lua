@@ -56,51 +56,61 @@ return {
 		for _, server_name in ipairs(mason_lspconfig.get_installed_servers()) do
 			vim.lsp.config(server_name, { capabilities = capabilities })
 		end
-
-		-- Custom configs:
-		vim.lsp.config("pyright", {
+		vim.lsp.config("ty", {
 			capabilities = capabilities,
+			cmd = { "ty", "server" },
+			filetypes = { "python" },
+			init_options = {
+				logFile = vim.loop.os_homedir() .. "/.ty-lsp.log", -- or any path
+				logLevel = "debug",
+			},
 			settings = {
-				python = {
-					analysis = {
-						typeCheckingMode = "basic",
-						diagnosticMode = "openFilesOnly",
-						autoSearchPaths = true,
-						useLibraryCodeForTypes = true,
+				ty = {
+					disableLanguageServices = false, -- enable hover, definitions, etc.
+					inlayHints = {
+						variableTypes = true,
+						callArgumentNames = true,
 					},
 				},
 			},
+			on_attach = function(client, bufnr)
+				print("Ty LSP attached!", client.name)
+			end,
 		})
+
+		-- Ruff LSP (linting)
+		vim.lsp.config("ruff", {
+			capabilities = capabilities,
+			cmd = { "ruff", "server" },
+			filetypes = { "python" },
+			on_attach = function(client, bufnr)
+				client.server_capabilities.hoverProvider = false
+			end,
+		})
+
+		-- Other LSPs
 		vim.lsp.config("clangd", {
 			capabilities = capabilities,
-			cmd = { "/opt/homebrew/opt/llvm/bin/clangd", "--background-index", "--clang-tidy", "--log=verbose" },
-			init_options = {
-				fallbackFlags = { "-std=c++20" },
+			cmd = {
+				"/opt/homebrew/opt/llvm/bin/clangd",
+				"--background-index",
+				"--clang-tidy",
+				"--log=verbose",
 			},
+
+			init_options = { fallbackFlags = { "-std=c++20" } },
 		})
-		vim.lsp.config("matlab_ls", {
-			capabilities = capabilities,
-			settings = {
-				matlab = {
-					installPath = "/Applications/MATLAB_R2025b.app",
-					indexWorkspace = true,
-					telemetry = false,
-				},
-			},
-		})
+
 		vim.lsp.config("lua_ls", {
 			capabilities = capabilities,
 			settings = {
-				Lua = {
-					diagnostics = { globals = { "vim" } },
-					completion = { callSnippet = "Replace" },
-				},
+				Lua = { diagnostics = { globals = { "vim" } }, completion = { callSnippet = "Replace" } },
 			},
 		})
-
 		-- Enable all servers
 		for _, server_name in ipairs(mason_lspconfig.get_installed_servers()) do
 			vim.lsp.enable(server_name)
 		end
+		vim.lsp.enable("ty")
 	end,
 }

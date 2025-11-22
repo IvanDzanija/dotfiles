@@ -8,7 +8,7 @@ autoload -Uz compinit
 compinit
 
 # Oh My Posh
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/robbyrussell.omp.json)"
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/zash.omp.json)"
 
 # PATH
 export PATH="/Applications:$PATH"
@@ -37,7 +37,6 @@ source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 
 # Aliases
-
 alias gupd='git add . && git commit -m "auto-commit" && git push'
 alias gsol='git add . && git commit -m "solved" && git push'
 alias gcc="gcc-15 -lstdc++"
@@ -49,12 +48,12 @@ alias g++="g++-15 -std=c++23"
 # Custom latexmkrc file
 export LATEXMKRCS="~/.config/latexmk/latexmkrc"
 
-tmp() {
+tmp_cpp() {
     # Define the static directory where the file is located
-    STATIC_DIR="/Users/dzanijaivan/Developer/competitive_programming"
+    STATIC_DIR="/Users/dzanijaivan/Developer/competitive_programming/templates"
 
     # Define the file you want to copy from the static directory
-    FILENAME="cp_template.cpp"
+    FILENAME="template.cpp"
 
     # Check if a name was provided
     if [ -z "$1" ]; then
@@ -63,7 +62,24 @@ tmp() {
     fi
 
     # Copy the file and rename it
-    cp "$STATIC_DIR/$FILENAME" "./$1"
+    cp "$STATIC_DIR/$FILENAME" "./$1.cpp"
+}
+
+tmp_py() {
+    # Define the static directory where the file is located
+    STATIC_DIR="/Users/dzanijaivan/Developer/competitive_programming/templates"
+
+    # Define the file you want to copy from the static directory
+    FILENAME="template.py"
+
+    # Check if a name was provided
+    if [ -z "$1" ]; then
+        echo "Usage: tmp <new-filename>"
+        return 1
+    fi
+
+    # Copy the file and rename it
+    cp "$STATIC_DIR/$FILENAME" "./$1.py"
 }
 
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
