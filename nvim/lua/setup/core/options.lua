@@ -20,7 +20,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.cursorline = true
-opt.guicursor = "n-v-c-i:block"
+-- opt.guicursor = "n-v-c-i:block"
 
 opt.termguicolors = true
 opt.background = "dark"
