@@ -1,8 +1,8 @@
 return {
 	-- "folke/tokyonight.nvim",
 	-- "Tsuzat/NeoSolarized.nvim",
-	--"maxmx03/solarized.nvim",
-	"rebelot/kanagawa.nvim",
+	"maxmx03/solarized.nvim",
+	--"rebelot/kanagawa.nvim",
 	--	"bluz71/vim-moonfly-colors",
 	--	"Mofiqul/vscode.nvim",
 	-- "savq/melange-nvim",
@@ -17,14 +17,14 @@ return {
 	transparent = true,
 	config = function()
 		vim.o.termguicolors = true
-		-- vim.o.background = "light"
+		vim.o.background = "light"
 		--	vim.cmd("colorscheme moonfly")
 		--		vim.cmd("colorscheme vscode")
 		-- vim.cmd("colorscheme tokyonight-storm")
 		--	vim.cmd("colorscheme NeoSolarized")
-		vim.cmd("colorscheme kanagawa-dragon")
+		--vim.cmd("colorscheme kanagawa-dragon")
 		--		vim.cmd("colorscheme wildcharm")
-		--vim.cmd("colorscheme solarized")
+		vim.cmd("colorscheme solarized")
 		-- vim.cmd("colorscheme gruvbox")
 		--vim.cmd("colorscheme rose-pine")
 		--vim.cmd("colorscheme dawnfox")
