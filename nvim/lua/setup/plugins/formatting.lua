@@ -23,7 +23,7 @@ return {
 			},
 			formatters = {
 				["clang-format"] = {
-					command = "/Users/dzanijaivan/.config/format-clang.sh",
+					command = "clang-format",
 					stdin = true,
 				},
 				["ruff_format"] = {

@@ -98,7 +98,7 @@ return {
 				"--log=verbose",
 			},
 
-			init_options = { fallbackFlags = { "-std=c++20" } },
+			init_options = { fallbackFlags = { "-std=c++23" } },
 		})
 
 		vim.lsp.config("lua_ls", {
