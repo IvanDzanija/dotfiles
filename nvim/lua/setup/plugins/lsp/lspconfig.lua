@@ -97,7 +97,7 @@ return {
 				"--clang-tidy",
 				"--log=verbose",
 			},
-			filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "opencl" },
+			filetypes = { "c", "cpp", "objc", "objcpp" },
 			init_options = { fallbackFlags = { "-std=c++23" } },
 		})
 
