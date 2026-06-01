@@ -1,0 +1,1031 @@
+ls 
+cd build
+ls 
+cd primjer
+cd primjerGLM
+ls 
+./primjerGLM
+ls 
+cd ..
+ls 
+cd primjerOpenGL
+ls 
+./primjerOpenGL
+cd ..
+ls 
+cd primjerASSIMP
+ls 
+./primjerASSIMP
+ls 
+cd resources
+ls 
+cd glava
+ls 
+cd ..
+ls 
+cd ..
+ls 
+cd ..
+ls 
+cd ,,
+cd ..
+ls 
+cmake --build build 
+cd build/primjerOpenGL
+ls 
+./primjerOpenGL
+./primjerOpenGL
+./primjerOpenGL
+./primjerOpenGL
+./primjerOpenGL
+./primjerOpenGL
+./primjerOpenGL
+./primjerOpenGL shader0
+./primjerOpenGL shaders/
+ls 
+./primjerOpenGL shaders/
+./primjerOpenGL shaders/
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+./primjerOpenGL 
+ls 
+cd shaders
+ls 
+cd ..
+ls 
+./primjerOpenGL 
+ls 
+cd resources/â€ƒ¼
+ls 
+cd resources
+ls 
+cd ..
+ls 
+cd ..
+ls 
+./primjerOpenGL/primjerOpenGL
+./primjerOpenGL/primjerOpenGL
+./primjerOpenGL/primjerOpenGL
+./primjerOpenGL/primjerOpenGL
+./primjerOpenGL/primjerOpenGL
+cd primjerOpenGL
+ls 
+./primjerOpenGL
+clear 
+cd ..
+ls 
+cd ..
+ls 
+cd ..
+ls 
+cd end
+cd ..
+ls 
+cd ..
+ls 
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+cmake --build build
+open cv.pdf
+open cv.pdf
+latexmk -pdf -pv -pvc cv.tex
+brew uninstall zed 
+brew uninstall --cask zed 
+brew uninstall --cask zed 
+brew doctor 
+brew uninstall zed 
+brew uninstall --cask --force zed 
+latexmk -pdf -pv -pvc esej_palm_payment.tex
+latexmk -pdf -pv -pvc esej_palm_payment.tex
+latexmk -pdf -pv -pvc esej_palm_payment.tex
+cmake -S . -B build -G Ninja
+cmake -S . -B build -G Ninja
+nvim .clangd
+nvim src/vjezba2/sources/Shader.cpp
+nvim src/vjezba1/sources/Shader.cpp
+ls 
+cd src
+ls 
+cd primjerOpenGL
+nvim .
+nvim .
+cd ..
+ls 
+cd ..
+lks 
+gupd 
+cd 
+cd Downloads
+ls 
+sha256sum -b linuxmint-22.3-xfce-64bit.iso
+rm -rf linuxmint-22.3-xfce-64bit.iso
+ls 
+rm -rf balenaEtcher-2.1.4-arm64.dmg
+ls 
+clear 
+ls 
+open PrekrÅƒajni\ nalog\ lLOGIÄƒ¬AN\ IZBOR.doc
+open RaÄƒ­uni\ s\ greÅƒkama.docx
+open RaÄƒ­uni\ s\ greÅƒkama.docx
+open RaÄƒ­uni\ s\ greÅƒkama.docx
+cd 
+cd Documents
+ls 
+cd Personal
+ls 
+cd Zivotopis
+ls 
+nvim .
+cd 
+cd Documents/FER/Prijediplomski/6.\ SEM/NLA
+ls 
+cd ..
+cd ..
+ls 
+cd ..
+ls 
+cd Diplomski
+ls 
+cd 2.\ SEM
+ls 
+mkdir IRG 
+ls 
+cd IRG
+ls 
+mkdir Knjiga 
+cd Knjiga
+ls 
+mv ~/Downloads/IRG.pdf ./
+ls 
+cd ..
+ls 
+cd ..
+ls 
+mkdir SVERAC
+ls 
+cd SVERAC
+ls 
+mkdir Zadace 
+nvim Zadace
+cd Zadace
+ls 
+touch esej_palm_payment.tex
+nvim esej_palm_payment.tex
+nvim esej_palm_payment.
+nvim esej_palm_payment.tex
+ source /Users/dzanijaivan/Desktop/.venv/bin/activate
+ source /Users/dzanijaivan/Desktop/.venv/bin/activate
+latexmk -pdf -pv -pvc esej_palm_payment.tex
+latexmk -pdf -pv -pvc esej_palm_payment.tex
+clear 
+cd 
+cd Developer
+ls 
+cd Engine
+ls 
+ls 
+cd build/primjerOpenGL
+ls 
+./primjerOpenGL
+cd ..
+ls 
+cd vjezba1
+ls 
+./vjezba1
+./vjezba1
+./vjezba1
+cd 
+dc Desktop
+ls 
+cd Desktop
+ls 
+cd test
+ls 
+nvim .
+nvim kuki.cpp 
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki
+./kuki
+./kuki
+nvim kuki.cpp 
+nvim kuki.cpp 
+clear 
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki
+./kuki
+./kuki
+./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki
+./kuki
+clear 
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki
+./kuki
+./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+ls 
+nvim .
+clear 
+clear 
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+clang++ -O2 -ffast-math -march=native -funroll-loops kuki.cpp -o kuki && ./kuki
+ls 
+ls 
+nvim kuki.cpp
+clear 
+cd Documents/FER/Diplomski/2.\ SEM/SVERAC/Zadace
+ls 
+nvim esej_palm_payment.tex
+clear
+ls 
+brew install --cask visual-studio-code
+cd 
+clear 
+cd Developer/Engine
+ls 
+kitten themes
+kitten themes
+clear 
+kitten themes
+clear 
+kitten themes
+clear 
+cd 
+cd .config
+ls 
+nvim .
+clear 
+cd ..
+ls 
+cd 
+cd Downloads
+ls 
+open PlaÄƒ§anje\ dlanom.docx
+cd ..
+ls 
+cd ..
+ls 
+nvim CMakeLists.txt
+ls 
+mv -r src/dependencies ./dependencies
+mv src/dependencies ./dependencies
+ls 
+nvim CMakeLists.txt
+./build.sh
+ls 
+cd build
+ls 
+cd primjerOpenGL
+ls 
+./primjerOpenGL
+ls 
+cd 
+cd Desktop
+ls 
+nvim test.cpp
+clear 
+ls 
+cd .
+cd 
+ls 
+cd Desktop
+ls 
+cd OSIBigInt
+ls 
+nvim .
+clear 
+nvim .
+ source /Users/dzanijaivan/Desktop/.venv/bin/activate
+cd 
+cd Downloads
+ls 
+open .
+cd 
+cd Documents/FER/Diplomski/2.\ SEM/SVERAC/Zadace
+cd ..
+ls 
+cd Zadace
+lÄƒ­s 
+cd ..
+cd ..
+cd IRG
+ls 
+cd Knjiga
+ls 
+open IRG.pdf
+clear 
+ls 
+cd .
+cd 
+cd Pictures
+ls 
+open .
+kitten themes 
+clear 
+kitten themes 
+clear 
+cd 
+cd Developer/Engine
+lks 
+ls 
+ls 
+cmake -S . -B build -G Ninja
+cmake -S . -B build -G Ninja
+cmake -S . -B build -G Ninja
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+cd src/vjezba1
+ls 
+nvi CMakeLists.txt
+nvim CMakeLists.txt
+cd ..
+ls 
+cd ..
+ls 
+./build.sh
+./build.sh
+cmake -S . -B build-xcode -G Xcode
+open build-xcode/Engine.xcodeproj
+rm -rf build
+ls 
+./build.sh
+clear 
+cd 
+cd Desktop
+ls 
+cd OSIBigInt
+ls 
+cd OSIBigInt
+ls 
+nvim .
+cd 
+cd Desktop
+ls 
+cd test
+ls 
+nvim crypt
+nvim crypt.py
+uv add pycryptodome
+uv run crypt.py
+uv run crypt.py
+uv run crypt.py
+uv run crypt.py
+pypy3 crypt.py
+uv run crypt.py
+nvim crypt.py
+uv run crypt.py
+uv run crypt.py
+uv run crypt.py
+uv run crypt.py
+uv run crypt.py
+nvim crypt.py
+nvim 
+nvim crypt.py
+uv run crypt.py
+nvim crypt.py
+uv run crypt.py
+nvim crypt.py
+uv run crypt.py
+clear 
+ls 
+d 
+cd 
+cd Desktop
+ls 
+cd test
+ls 
+nvim crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+nvim crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+nvim crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+nvim crypt_pure.py
+nvim crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+uv run crypt_pure.py
+ls 
+ls 
+nvim .
+d 
+cd 
+cd Documents/Personal
+ls 
+open cv.pdf
+cd Zivotopis
+open cv.pdf
+open cv.pdf
+clear 
+ls 
+clear 
+cd 
+cd Developer/Engine
+ls 
+nvim .
+nvim .
+nvim .
+clear 
+nvim .
+nvim .
+clear 
+ls 
+gupd 
+ls 
+mkdir examples
+mv src/primjerGLM ./examples/GLM
+ls 
+nvim CMakeLists.txt
+ls 
+cd examples
+ls 
+cd ..
+lks 
+cd src
+ls 
+cd vjezba
+cd vjezba1â€ƒ¼
+cd vjezba1
+ls 
+nvim .
+clear 
+ls 
+cd ..
+cd ..
+ls 
+cd examples
+ls 
+nvim CMakeLists.txt
+cd ..
+ls 
+./build.sh
+nvim .
+cd examples
+ls 
+nvim CMakeLists.txt
+ls 
+cd ..
+ls 
+nvim CMakeLists.txt
+./build.sh
+nvim CMakeLists.txt
+clear 
+nvim .
+nvim .
+clear 
+ls
+cd 
+cd Desktop
+ls 
+cd test
+ls 
+nvim bresenham.cpp
+clang++ -O3 -ffast-math -march=native -std=c++17 bresenham.cpp -o bench_lines
+clang++ -O2 primjer1.cpp -o primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework OpenGl
+clang++ -O2 primjer1.cpp -o primjer1 -framework OpenGL
+clang++ -O2 primjer1.cpp -o primjer1 -lopengl
+clang++ -O2 primjer1.cpp -o primjer1 -framework OpenGL
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer1.cpp -o primjer1 -framework GLUT -framework OpenGL
+./primjer1
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer2.cpp -o primjer2 -framework GLUT -framework OpenGL
+./primjer2
+clang++ -O2 primjer3.cpp -o primjer3 -framework GLUT -framework OpenGL
+clang++ -O2 primjer3.cpp -o primjer3 -framework GLUT -framework OpenGL
+./primjer3
+d cd 
+cd 
+cd Desktop
+ls 
+cd test 
+ls 
+./bench_lines
+./bench_lines
+./bench_lines
+ls 
+objdump bench_lines 
+clang++ -O3 -ffast-math -march=native -std=c++17 bresenham.cpp -S bench_lines
+nvim bench_lines
+clang++ -O3 -ffast-math -march=native -std=c++17 bresenham.cpp -o bench_lines
+nvim bresenham.
+nvim bresenham.cpp
+clang++ -O3 -ffast-math -march=native -std=c++17 bresenham.cpp -o bench_lines
+./bench_lines
+cd 
+cd Desktop
+ls 
+git clone https://github.com/IvanDzanija/Engine.git
+rm -rf Engine
+ls 
+git clone https://github.com/IvanDzanija/Engine.git
+open Engine
+cd 
+cd Developer/end
+cd Developer/Engine
+ls 
+./build.sh
+./build.sh
+gupd 
+ls 
+gupd 
+git push 
+git status 
+git reset --soft HEAD~1
+rm -rf build-xcode
+ls 
+gupd 
+nvim .
+git reset --soft HEAD~1
+nvim .gitmodules
+gupd 
+git submodule sync --recursive
+git reset --soft HEAD~1
+git submodule sync --recursive
+gupd 
+git list 
+git commits 
+git log 
+git reset --soft HEAD~1
+ls 
+git log 
+git status 
+nvim .gitmodules
+git rm -r --cached dependencies
+ls 
+git submodule sync --recursive
+git status 
+gupd 
+git status 
+git log 
+git reset --soft HEAD~1
+git status 
+git rm -r --cached dependencies
+ls 
+git status 
+git commit -m "Changes"
+git push 
+git status 
+git submodule deinit -f -- dependencies/
+git submodule deinit -f -- dependencies
+git clean -nd dependencies
+git clean -fd dependencies
+ls 
+git status 
+git submodule deinit -f --all\
+git rm -f dependencies/glm dependencies/glfw dependencies/glad dependencies/assimp dependencies/stb\
+rm -rf .git/modules/dependencies\
+rm -rf dependencies
+ls 
+ls 
+git rm -r --cached dependencies\
+git submodule update --init --recursive
+git submodule update --init --recursive
+ls 
+ 	git submodule init\
+git submodule sync --recursive\
+git submodule update --init --recursive
+nvim .gitmodules
+git submodule sync --recursive\
+git submodule update --init --recursive
+ls 
+rm -rf 1q
+kls 
+ls 
+cd src
+ls 
+cd ..
+ls 
+git submodule sync --recursive\
+git submodule update --init --force --recursive
+git submodule status\
+git status
+git submodule status
+rm -rf .git/modules/dependencies\
+git submodule sync --recursive\
+git submodule update --init --force --recursive
+ls 
+cat .gitmodules\
+git ls-tree HEAD dependencies\
+git submodule status
+git submodule sync --recursive\
+git submodule update --init --recursive
+git config --remove-section submodule.dependencies/glm 2>/dev/null\
+git config --remove-section submodule.dependencies/glfw 2>/dev/null\
+git config --remove-section submodule.dependencies/glad 2>/dev/null\
+git config --remove-section submodule.dependencies/assimp 2>/dev/null\
+git config --remove-section submodule.dependencies/stb 2>/dev/null
+rm -rf .git/modules/dependencies
+git submodule sync --recursive\
+git submodule update --init --recursive
+ls 
+cd .git
+ls 
+nvim .
+rm -rf .git/modules
+ls 
+cd modules
+ls 
+cd ..
+ls 
+ls 
+cd ..
+ls 
+rm -rf .git/modules
+git submodule sync --recursive\
+git submodule update --init --recursive
+ls 
+nvim .git
+git ls-files --stage dependencies
+ls 
+cd ..
+ls 
+git ls-files --stage dependencies
+git status 
+git add .gitmodules 
+git commit -m "Init"
+git log 
+git checkout 44d5dc94d2a6eb4f0555580e8606e3a4b418d034
+ls 
+open .
+ls 
+git status 
+./build.sh
+nvim .
+./build.sh
+ls 
+cd dependencies
+ls 
+cd assimp
+ls 
+cd ..
+ls 
+cd ..
+ls 
+nvim build.sh
+./build.sh
+rm -rf .git
+ls 
+git init 
+./build.sh
+nvim .gitmodules
+cd dependencies
+ls 
+cd assimp
+ls 
+cd ..
+ls 
+cd ..
+ls 
+git submodule update --init --recursive
+rm -rf .gitmodules
+git submodule add -b master https://github.com/g-truc/glm.git dependencies/glm\
+git submodule add -b master https://github.com/glfw/glfw.git dependencies/glfw\
+git submodule add -b c https://github.com/Dav1dde/glad.git dependencies/glad\
+git submodule add -b master https://github.com/assimp/assimp.git dependencies/assimp\
+git submodule add -b master https://github.com/nothings/stb.git dependencies/stb
+rm -rf dependencies
+ls 
+git submodule add -b master https://github.com/g-truc/glm.git dependencies/glm\
+git submodule add -b master https://github.com/glfw/glfw.git dependencies/glfw\
+git submodule add -b c https://github.com/Dav1dde/glad.git dependencies/glad\
+git submodule add -b master https://github.com/assimp/assimp.git dependencies/assimp\
+git submodule add -b master https://github.com/nothings/stb.git dependencies/stb
+./build.sh
+./build.sh
+cleare 
+ls 
+cd 
+cd Developer/Engine/
+ls 
+nvim .
+cd 
+cd build
+ls 
+cd vjezba1
+ls 
+./vjezba1
+./vjezba1
+cd shaders
+ls 
+nvim .
+cd ..
+ls 
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+ls 
+ls 
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+cd ..
+ls 
+git submodule sync --recursive\
+git submodule update --init --recursive
+ls 
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+gupd 
+git remote set-url origin https://github.com/IvanDzanija/Engine.git
+git remote set-url https://github.com/IvanDzanija/Engine.git
+git remote set-url origin -add https://github.com/IvanDzanija/Engine.git
+git remote set-url origin --add https://github.com/IvanDzanija/Engine.git
+git remote set-url  --add https://github.com/IvanDzanija/Engine.git
+git remote add origin   // osvjetli fragment rastera na koordinatama x i y, gdje je ishodiste u donjem lijevom\
+  // kutu\
+
+git remote add origin https://github.com/IvanDzanija/Engine.git
+gupd 
+git push
+git push --set-upstream origin main
+git push --set-upstream origin main
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+nvim .
+./build.sh
+./build.sh
+./build.sh
+nvim .
+nvim .
+nvim test
+clear 
+ls 
+rm -rf test
+ls 
+ls 
+cd build
+ls 
+cd primjerGLM
+ls 
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+ls 
+cd ..
+ls 
+cd ..
+ls 
+rm -rf build
+ls 
+cd build
+ls 
+cd primjerGLM
+ls 
+ls 
+cd ..
+lks 
+cd ..
+lÄƒ­s 
+ls 
+nvim CMakeLists.txt
+nvim build.sh
+chmod +x build
+chmod +x build.sh 
+ls 
+./build
+./build.sh
+cd build
+ls 
+cd primjerGLM
+ls 
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+./primjerGLM
+cd ..
+ls 
+cd primjerOpenGL
+ls 
+./primjerOpenGL
+./primjerOpenGL
+ls 
+ls 
+./primjerOpenGL
+clear 
+cd 
+cd Documents/FER/Diplomski/2.\ SEM/
+ls 
+cd IRG
+ls 
+mkdir Primjeri
+cd Primjeri
+ls 
+nvim primjer1.cpp
+nvim CMakeLists.txt
+nvim CMakeLists.txt
+nvim main.cpp
+nvim .
+cd 
+cd Developer/Engine
+ls 
+nvim .
+nvim .
+nvim .
+nvim .
+cd Developer/Engine
+./build.sh
+nvim .
+cd ~/.config/kitty/
+ls 
+rm -rf kitty.app.png
+clear 
+rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock
+ls 
+cd build
+ls
+ cd vjezba
+ls 
+ cd vjezba1
+ls 
+./vjezba1
+cd ..
+ls 
+cd ..
+ls 
+nvim .
+cd build/vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./vjezba1
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+git add .
+git commit -m "Added Bresenham"
+git push 
+gupd 
+nvim .
+rm /var/folders/*/*/*/com.apple.dock.iconcache; killall Dock

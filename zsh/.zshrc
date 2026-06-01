@@ -7,8 +7,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 autoload -Uz compinit
 compinit
 
-# Oh My Posh
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/zash.omp.json)"
 
 # PATH
 export PATH="/Applications:$PATH"
@@ -30,6 +28,8 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Colorls
 alias ls="ls -a --color"
+# Oh My Posh
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/zash.omp.json)"
 # Vim binds
 set -o vi
 source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
@@ -37,9 +37,13 @@ source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 
 # Aliases
+alias ll='ls -la'
+alias -g ...='../..'
+alias -g ....='../../..'
+# alias vim='nvim'
 alias gupd='git add . && git commit -m "auto-commit" && git push'
 alias gsol='git add . && git commit -m "solved" && git push'
-alias gcc="gcc-15 -lstdc++"
+alias gcc="gcc-15"
 alias g++="g++-15 -std=c++23"
 #alias clang++="/opt/homebrew/opt/llvm/bin/clang++"
 #alias clangd="/opt/homebrew/opt/llvm/bin/clangd"
@@ -47,6 +51,7 @@ alias g++="g++-15 -std=c++23"
 
 # Custom latexmkrc file
 export LATEXMKRCS="~/.config/latexmk/latexmkrc"
+
 
 tmp_cpp() {
     # Define the static directory where the file is located
@@ -87,3 +92,4 @@ eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

@@ -1,0 +1,1053 @@
+cd ..
+ls 
+cd Primjeri
+ls 
+nvim .
+cd 
+cd Developer/Engine
+ls 
+nvim .
+clear 
+cd 
+cd Developer/Engine
+ls 
+nvim .
+ls 
+zip -r vjezba1.zip src/vjezba1/sources src/vjezba1/shaders src/vjezba1/headers src/vjezba2/headers src/vjezba2/shaders src/vjezba2/sources src/vjezba3/sources src/vjezba3/shaders src/vjezba3/headers
+ls 
+mv vjezba1.zip ./0036547433.zip
+mv 0036547433.zip ~/Documents/FER/Diplomski/2.\ SEM/IRG/
+ls 
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+cd build-debug
+cd vjezba
+cd vjezba3
+ls 
+./vjezba3
+./vjezba3
+./vjezba3
+./vjezba3
+./vjezba3
+d 
+cd 
+cd Documents/FER/Diplomski/1.\ SEM
+ls 
+cd pr
+cd PIK
+ls 
+nvim Primjeri
+ls 
+mpic++ -Ofast 01.cpp -o 01
+mpiexec 01
+mpic++ -Ofast 01.cpp -o 01
+mpic++ --version 
+mpic++ -Ofast 01.cpp -o 01
+mpic++ --version 
+mpiexec 01
+mpic++ --version 
+mpic++ -Ofast 01.cpp -o 01
+mpiexec 01
+mpic++ -Ofast 01.cpp -o 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+cd .config
+ls 
+cd 
+clear 
+ls 
+cd Documents/FER/Diplomski/2.\ SEM/
+ls 
+mkdir PARPRO
+cd PARPRO
+ls 
+mkdir Lab_vjezbe
+ls 
+cd Lab_vjezbe
+ls 
+ls 
+nvim 01.cpp 
+nvim 01.cpp 
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec -mp 5 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec -np 5 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec -np 2 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec -np 2 01
+mpic++ -Ofast 01.cpp -o 01 && mpiexec -np 2 01
+cd 
+clear 
+cd Desktop
+ls 
+cd Engine
+ls 
+git submodule add https://github.com/glfw/glfw.git dependencies/glfw
+ls 
+git submodule add https://github.com/g-truc/glm.git dependencies/glm
+# Add GLAD (Branch 'c')\
+git submodule add -b c https://github.com/Dav1dde/glad.git dependencies/glad\
+\
+# Add Assimp (Branch 'master')\
+git submodule add -b master https://github.com/assimp/assimp.git dependencies/assimp\
+\
+# Add STB (Branch 'master')\
+git submodule add -b master https://github.com/nothings/stb.git dependencies/stb\
+\
+# Finalize and initialize\
+git submodule update --init --recursive
+rm -rf dependencies
+ls 
+cd ..
+rm -rf Engine
+# Add GLAD (Branch 'c')\
+git submodule add -b c https://github.com/Dav1dde/glad.git dependencies/glad\
+\
+# Add Assimp (Branch 'master')\
+git submodule add -b master https://github.com/assimp/assimp.git dependencies/assimp\
+\
+# Add STB (Branch 'master')\
+git submodule add -b master https://github.com/nothings/stb.git dependencies/stb\
+\
+# Finalize and initialize\
+git submodule update --init --recursive
+cd Engine
+ls 
+ls 
+# Add GLAD (Branch 'c')\
+git submodule add -b c https://github.com/Dav1dde/glad.git Dependencies/glad\
+\
+# Add Assimp (Branch 'master')\
+git submodule add -b master https://github.com/assimp/assimp.git Dependencies/assimp\
+\
+# Add STB (Branch 'master')\
+git submodule add -b master https://github.com/nothings/stb.git Dependencies/stb\
+\
+# Finalize and initialize\
+git submodule update --init --recursive
+nvim CMakeLists.txt
+ls 
+mkdir build 
+cd build
+cmake -G Xcode ..
+cmake -G Xcode ..
+cmake -G Xcode ..
+git submodule add https://github.com/glfw/glfw.git Dependencies/glfw
+git submodule add https://github.com/g-truc/glm.git Dependencies/glm
+nvim CMakeLists.txt
+mkdir sources
+mkdir headers
+mkdir shaders
+ls 
+nvim sources/main.cpp
+ls 
+cd Engine
+ls 
+ls 
+nvim main.cpp
+\:q
+cd bu
+cd ..
+ls 
+cd build
+ls 
+open Engine.xcodeproj
+cd ..
+ls 
+cd sources
+ls 
+open .
+cd ..
+nvim CMakeLists.txt
+cd build
+ls 
+cmake -G Xcode ..
+open Engine.xcodeproj
+cd ..
+ls 
+rm -rf build
+ls 
+mkdir build
+cd build
+ls 
+cmake -G Xcode ..
+open Engine.xcodeproj
+cd ..
+ls 
+nvim CMakeLists.txt
+rm -rf build
+ls 
+mkdir build
+cd build
+cmake -G Xcode ..
+open Engine.xcodeproj
+cd ..
+lks 
+nvim CMakeLists.txt
+rm -rf build
+ls 
+mkdir build
+cd build
+ls 
+cmake -G Xcode ..
+open Engine.xcodeproj
+cd 
+cd .config
+ls 
+nvim nvim/lua/setup/plugins
+cd 
+cd Desktop
+ls 
+cd test
+lÄƒ­s 
+ls 
+nvim npmm.py
+uv run npmm.py
+nvim npmm.py
+uv run npmm.py
+uv run npmm.py
+cd 
+cd Developer/MafLib
+ls 
+cd build
+ls 
+cd clang-debug
+ls 
+cd ..
+ls 
+cd ..
+./release_build_and_test.sh
+cd build/clang-release
+ls 
+nvim compile_commands.json
+nvim compile_commands.json
+cd 
+cd Desktop
+ls 
+cd 
+cd Developer/MafLib
+ls 
+nvim .
+clear 
+./release_build_and_test.sh
+ls 
+./LinAlgTests
+ export OMP_NUM_THREADS=8
+ export OMP_NUM_THREADS=8
+./LinAlgTests
+./LinAlgTests
+clang++ -O3 -march=native -ffast-math mm.cpp -o mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+g++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+./mm
+g++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+g++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+g++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+g++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+g++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native -ffast-math mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+./mm
+./mm
+./mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+./mm
+./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm && ./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm && ./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm && ./mm
+clang++ -std=c++23 -O3 -march=native mm.cpp -o mm && ./mm
+/usr/bin/clang++ -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -std=c++23 -arch arm64 -fcolor-diagnostics -Wall -Wextra -Wpedantic -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include mm.cpp
+/usr/bin/clang++ -std=c++23 -arch arm64 -fcolor-diagnostics -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include 
+/usr/bin/clang++ -std=c++23 -arch arm64 -fcolor-diagnostics -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+./a.out
+./a.out
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+./a.out
+g++ -O3 test_openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o test_openblas
+g++ -O3 openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o openblas
+./openblas
+clangg++ -O3 openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o openblas
+clang++ -O3 openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o openblas
+./openblas
+./openblas
+export OPENBLAS_NUM_THREADS=1
+./openblas
+clang++ -O3 openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o openblas
+./openblas
+./openblas
+./openblas
+./openblas
+clang++ -O3 openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o openblas
+./openblas
+export OPENBLAS_NUM_THREADS=8
+./openblas
+./openblas
+otool -L ./openblas
+clang++ -O3 openblas.cpp \\
+  -I/opt/homebrew/opt/openblas/include \\
+  -L/opt/homebrew/opt/openblas/lib \\
+  -lopenblas -o openblas
+clang++ -O3 openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+export OMP_NUM_THREADS=4
+./openblas
+clang++ -O3 openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+export OMP_NUM_THREADS=8
+./openblas
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+./openblas
+export OPENBLAS_CORETYPE=ARMV8
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+./openblas
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+export OMP_NUM_THREADS=4
+./openblas
+./openblas
+./openblas
+./openblas
+export OMP_NUM_THREADS=8
+./openblas
+./openblas
+./openblas
+export OMP_NUM_THREADS=2
+./openblas
+./openblas
+export OMP_NUM_THREADS=1
+./openblas
+./openblas
+./openblas
+export OMP_NUM_THREADS=1
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+export OMP_NUM_THREADS=1
+./openblas
+./openblas
+./openblas
+export OMP_NUM_THREADS=2
+./openblas
+export OMP_NUM_THREADS=4
+./openblas
+export OMP_NUM_THREADS=8
+./openblas
+./openblas
+./openblas
+./openblas
+export OMP_NUM_THREADS=4
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+export OMP_NUM_THREADS=8
+./openblas
+./openblas
+./openblas
+./openblas
+./openblas
+export OMP_NUM_THREADS=4
+./openblas
+./openblas
+./openblas
+export OPENBLAS_CORETYPE=VORTEX
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+export OPENBLAS_CORETYPE=VORTEX
+export OMP_NUM_THREADS=4
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+./openblas
+clang++ -O3 -march=vortex -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+./openblas
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=8
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=1
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+git log 
+git checkout ef3b9f2c4b623a8b61a73ed7fd994e860bdfbaa5 
+ls 
+ls 
+nvim mm.cpp
+git checkout main
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=1
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=2
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=4
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=8
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=8
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OPENBLAS_CORETYPE=ARMV8SVE
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+./openblas
+./openblas
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+cd Desktop
+ls 
+mkdir mm
+cd mm
+ls 
+nvim mm.cpp
+nvim mm.cpp
+git init 
+git add .
+git commit -m "81GFLOPS"
+ls 
+nvim .
+clear 
+cd De
+cd Desktop
+ls 
+cd mm
+ls 
+nvim .
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=8
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+cd 
+cd Desktop
+lÄƒ­s 
+cd test
+nvim npmm.py
+uv run npmm.py
+uv run npmm.py
+uv run npmm.py
+uv run npmm.py
+uv run npmm.py
+cd 
+cd Desktop/mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -g -fsanitize=address -fno-omit-frame-pointer -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+ls 
+nvim .
+nvim .
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+export OMP_NUM_THREADS=8
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+fastfetch
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+./build.sh
+cd build-debug
+ls 
+cd vjezba2
+./vjezba2
+cd ..
+ls 
+cd vjezba3
+ls 
+./vjezba3
+cd ..
+ls 
+cd vjezba1
+	ls 
+./vjezba1
+cd ..
+cd vjezba2
+./vjezba2
+./vjezba2
+./vjezba2
+clear 
+cd Desktop/mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+rm -rf mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+nvim .
+gupd 
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+git remote add origin https://github.com/IvanDzanija/GEMM.git
+git push 
+\
+    git push --set-upstream origin main
+git add .
+git commit -m "SLOW\
+"
+git push 
+git push 
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -fsanitize-address mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+./openblas
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+g++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+git add .
+git commit -m "70GFLOPS"
+git push 
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas
+./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas && ./openblas
+clang++ -O3 -march=native -ffast-math openblas.cpp -I/opt/homebrew/opt/openblas/include -L/opt/homebrew/opt/openblas/lib -lopenblas -o openblas && ./openblas
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+cd 
+cd Developer/Engine
+ls 
+ nvim .
+clear 
+open /Applications/eim.app --args gui
+exit
+open /Applications/eim.app --args gui
+exit
+open /Applications/eim.app --args gui
+exit
+cd 
+cd Desktop/test
+uv run npmm.py
+brew install --cask sensiblesidebuttons
+cd 
+cd Desktop/test
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+cd ..
+cd mm
+ls 
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -o mm && ./mm
+brew uninstall --cask firefox
+cd 
+cd Documents/FER/Diplomski/2.\ SEM/
+ls 
+cd SVERAC
+ls 
+mkdir Prezentacije
+cd Prezentacije
+ls 
+mv ~/Downloads/SVERAC\ 02\ Ulaz\ 2025-26.pdf ./01_Ulaz.pdf
+open 01_Ulaz.pdf
+cd 
+cd Documents/FER/Diplomski/2.\ SEM/
+ls 
+cd PARPRO/â€ƒ¼
+cd PARPRO/
+ls 
+cd Lab_vjezbe
+Äƒ­s 
+ls 
+nvim 01.cpp
+clear 
+ls 
+cd ..
+ls 
+cd ..
+ls 
+cd svq
+cd SVERAC
+ls 
+cd Prezentacije
+ls 
+mv ~/Downloads/SVERAC\ 03\ Izlaz\ 2025-26.pdf ./02_Izlaz.pdf
+ls 
+open 02_Izlaz.pdf
+mv ~/Downloads/SVERAC\ 04\ Vrijeme\ 2025-26 ./03_Vrijeme.pdf
+mv ~/Downloads/SVERAC\ 04\ Vrijeme\ 2025-26.pdf ./03_Vrijeme.pdf
+ls 
+ls 
+open 03_Vrijeme.pdf
+clear
+cd 
+cd Downloads
+ls 
+brew install dfu-util
+clear 
+open /Applications/eim.app/Contents/MacOS/eim --args gui
+exit
+/Applications/eim.app/Contents/MacOS/eim ; exit;

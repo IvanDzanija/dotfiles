@@ -1,0 +1,1 @@
+bash --rcfile <(cat ~/.bashrc 2>/dev/null; echo 'source "/Users/dzanijaivan/.espressif/tools/activate_idf_v5.5.3.sh"' 2>/dev/null || echo 'echo Script not found: /Users/dzanijaivan/.espressif/tools/activate_idf_v5.5.3.sh')

@@ -92,13 +92,19 @@ return {
 		vim.lsp.config("clangd", {
 			capabilities = capabilities,
 			cmd = {
-				"/opt/homebrew/opt/llvm/bin/clangd",
+				"clangd",
 				"--background-index",
 				"--clang-tidy",
 				"--log=verbose",
 			},
-
+			filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "opencl" },
 			init_options = { fallbackFlags = { "-std=c++23" } },
+		})
+
+		vim.lsp.config("sourcekit", {
+			capabilities = capabilities,
+			cmd = { "sourcekit-lsp" },
+			filetypes = { "swift" },
 		})
 
 		vim.lsp.config("lua_ls", {
@@ -112,5 +118,6 @@ return {
 			vim.lsp.enable(server_name)
 		end
 		vim.lsp.enable("ty")
+		vim.lsp.enable("sourcekit")
 	end,
 }

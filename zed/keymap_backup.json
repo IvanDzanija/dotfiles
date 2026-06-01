@@ -1,9 +1,8 @@
 [
     {
         "bindings": {
-            "shift-tab": "editor::Backtab",
+            "shift-tab": "editor::TabPrev",
             "space e e": "workspace::ToggleLeftDock",
-            "space f f": "file_finder::Toggle",
             "cmd-1": ["pane::ActivateItem", 0],
             "cmd-2": ["pane::ActivateItem", 1],
             "cmd-3": ["pane::ActivateItem", 2],

@@ -7,63 +7,62 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-    "icon_theme": "Colored Zed Icons Theme Dark",
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Colored Zed Icons Theme Dark",
+        "dark": "Colored Zed Icons Theme Dark"
+    },
     "show_edit_predictions": true,
-    "assistant": {
+    "agent": {
         "default_model": {
             "provider": "copilot_chat",
-            "model": "claude-3-7-sonnet"
+            "model": "claude-3-7-sonnet",
         },
-        "version": "2"
     },
-    "theme": "Kanagawa",
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "One Dark"
+    },
     "prettier": {
         // Use regular Prettier json configuration:
         "trailingComma": "es5",
         "tabWidth": 4,
         "semi": false,
-        "singleQuote": true
+        "singleQuote": true,
     },
     "languages": {
         "Python": {
-            "hard_tabs": false,
-            "format_on_save": {
+            "formatter": {
                 "external": {
                     "command": "/opt/homebrew/bin/black",
-                    "arguments": [
-                        "-",
-                        "--line-length",
-                        "88"
-                    ]
-                }
-            }
+                    "arguments": ["-", "--line-length", "88"],
+                },
+            },
+            "hard_tabs": false,
+            "format_on_save": "on",
         },
         "C++": {
             "show_edit_predictions": false,
             "formatter": {
                 "external": {
                     "command": "clang-format",
-                    "arguments": [
-                        "--style=file:/Users/dzanijaivan/.config/clang-format/clang_format.txt"
-                    ]
-                }
+                },
             },
             "format_on_save": "on",
-            "tab_size": 4,
-            "hard_tabs": true
-        }
+        },
     },
-    "tab_size": 4,
+    "tab_size": 2,
     "buffer_font_weight": 500,
-    "buffer_font_family": "Inconsolata Nerd Font Mono",
+    "buffer_font_family": "SFMono Nerd Font",
     "format_on_save": "on",
     "vim_mode": true,
-    "relative_line_numbers": true,
+    "relative_line_numbers": "enabled",
     "cursor_blink": false,
-    "cursor_shape": "block",
-    "ui_font_size": 12,
-    "buffer_font_size": 16,
+    "cursor_shape": "bar",
+    "ui_font_size": 13,
+    "buffer_font_size": 15,
     "scrollbar": {
-        "show": "never"
-    }
+        "show": "never",
+    },
 }

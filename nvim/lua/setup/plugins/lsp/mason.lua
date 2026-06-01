@@ -31,6 +31,7 @@ return {
 				"ruff",
 				"lua_ls",
 				"texlab",
+				"glsl_analyzer",
 				-- "ty",
 			},
 		})

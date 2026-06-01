@@ -7,15 +7,16 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-    "show_inline_completions": true,
+    "icon_theme": "Colored Zed Icons Theme Dark",
+    "show_edit_predictions": true,
     "assistant": {
         "default_model": {
             "provider": "copilot_chat",
-            "model": "gpt-4o"
+            "model": "claude-3-7-sonnet"
         },
         "version": "2"
     },
-    "theme": "Xcode Sunset",
+    "theme": "macOS Classic Dark",
     "prettier": {
         // Use regular Prettier json configuration:
         "trailingComma": "es5",
@@ -38,12 +39,12 @@
             }
         },
         "C++": {
-            "show_inline_completions": false,
+            "show_edit_predictions": false,
             "formatter": {
                 "external": {
                     "command": "clang-format",
                     "arguments": [
-                        "--style=file:/Users/dzanijaivan/Developer/zedConfig/clang_format.txt"
+                        "--style=file:/Users/dzanijaivan/.config/clang-format/clang_format.txt"
                     ]
                 }
             },
@@ -53,8 +54,8 @@
         }
     },
     "tab_size": 4,
-    "buffer_font_weight": 600,
-    "buffer_font_family": "Ubuntu Mono",
+    "buffer_font_weight": 500,
+    "buffer_font_family": "Inconsolata Nerd Font Mono",
     "format_on_save": "on",
     "vim_mode": true,
     "relative_line_numbers": true,
