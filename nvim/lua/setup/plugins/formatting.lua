@@ -8,6 +8,7 @@ return {
 				["*"] = { "trim_whitespace", "trim_newlines" },
 				lua = { "stylua" },
 				python = { "ruff_format" },
+				swift = { "swiftformat" },
 				c = { "clang-format" },
 				glsl = { "clang-format" },
 				cpp = { "clang-format" },

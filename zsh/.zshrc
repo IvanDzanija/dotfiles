@@ -1,6 +1,8 @@
 fastfetch
 source ~/.bash_profile # This is needed for special PATH
 export PATH="/opt/homebrew/bin:$PATH"
+export XDG_CONFIG_HOME="$HOME/.config"
+
 
 # Autocompletion settings
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -43,8 +45,8 @@ alias -g ....='../../..'
 # alias vim='nvim'
 alias gupd='git add . && git commit -m "auto-commit" && git push'
 alias gsol='git add . && git commit -m "solved" && git push'
-alias gcc="gcc-15"
-alias g++="g++-15 -std=c++23"
+alias gcc="gcc-16"
+alias g++="g++-16 -std=c++23"
 #alias clang++="/opt/homebrew/opt/llvm/bin/clang++"
 #alias clangd="/opt/homebrew/opt/llvm/bin/clangd"
 

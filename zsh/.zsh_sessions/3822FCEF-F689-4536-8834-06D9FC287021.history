@@ -1,0 +1,1026 @@
+cd vjezba10
+./vjezba10
+./vjezba10
+ls 
+cd ..
+cd ..
+nvim .
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+./build.sh
+cd 
+cd Documents/FER/Diplomski/
+cd 2.\ SEM
+cd AARSVP
+ls 
+cd Lab_vjezbe
+ls 
+du -ah output_yuv420.yuv
+du -ah output_yuv444.yuv
+ls 
+cd ..
+cd .
+cd ..
+cd src
+ls 
+cd vjezba10
+ls 
+nvim .
+clear 
+nvim .
+ls 
+cd src
+ls 
+mv -r vjezba1 ./Lab01
+mv vjezba1 ./Lab01
+ls 
+mv vjezba10 ./Lab10
+ls 
+mv vjezba2 ./Lab02
+mv vjezba3 ./Lab03
+mv vjezba4 ./Lab04
+mv vjezba5a ./Lab05a
+ls 
+mv vjezba5b ./Lab05b
+mv vjezba6 ./Lab06
+ls 
+mv vjezba7 ./Lab07
+mv vjezba8a ./Lab08a
+mv vjezba8b ./Lab08b
+mv vjezba8c ./Lab08c
+ls 
+mv vjezba9 ./Lab09
+ls 
+cd ..
+ls 
+rm -rf build-debug
+ls 
+ls 
+nvim build.sh
+ls 
+./build.sh
+nvim .
+./build.sh
+ls 
+cd build-debug
+ls 
+cd Lab10
+ls 
+./Lab10
+ls 
+cd ..
+cd ..
+ls 
+gupd 
+nvim README.md
+nvim README.md
+gupd 
+nvim README.md
+gupd 
+nvim README.md
+gupd 
+ls 
+nvim .
+gupd 
+d cd 
+cd 
+cd
+cd Developer/Engine
+lks 
+ls 
+rm -rf examples
+ls 
+copilot
+ls 
+cd 
+ls 
+cd .espressif
+ls 
+cd tools
+ls 
+cd ..
+ls 
+cd v5.5.3
+ls 
+cd esp-idf
+ls 
+cd examples
+ls 
+cd bluetooth
+ls 
+nvim .
+\:q
+ls 
+cd ..
+ls 
+cd get-started
+ls 
+cp -r blink ~/Desktop
+ls 
+cd 
+cd Desktop
+ls 
+cd blink
+ls 
+code .
+ls 
+ls 
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+ls /dev/cu.*
+source ~/.espressif/tools/activate_idf_v5.5.3.sh
+ls 
+idf.py flash
+ls -l /System/Library/DriverExtensions/com.apple.DriverKit-AppleUSBCHCOM.dext
+python -m esptool --chip esp32s3 --port usb write_flash @flash_args
+cd build
+ls 
+python -m esptool --chip esp32s3 --port usb write_flash @flash_args
+ls /dev/tty.*
+ls /dev/tty.*
+cd ..
+ls 
+idf.py monitor 
+clear 
+ls /dev/tty.*
+idf.py monitor 
+clÄƒ­ear 
+clear 
+ls 
+cd 
+cd .espressif
+cd v5.5.3/esp-idf/examples/bluetooth/nimble/
+ls 
+kitten themes 
+clear 
+ls 
+ls 
+nvim .
+nvim .
+kitten themes
+clear 
+ls 
+nvim .
+clear 
+ls 
+cd ..
+cd lab03
+ls 
+ls 
+nvim .vscode
+nvim .
+ls 
+kitten themes
+clear 
+nvim lua/setup/plugins/
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+cd 
+cd .config
+ls 
+ls 
+cd nvim
+ls 
+nvim .
+nvim .
+nvim .
+nvim .
+clear 
+ls 
+kitten themes
+clear 
+ls 
+nvim .
+nvim .
+ls 
+cd ..
+ls 
+nvim kitty
+ls 
+nvim kitty
+cd ..
+nvim .
+cd ..
+cd build-debug
+cd vjezba10
+./vjezba10
+cd 
+cd Documents/FER/Diplomski/2.\ SEM
+ls 
+ls 
+ls 
+cd SVERAC
+ls 
+cd Lab_vjezbe
+ls 
+cd ..
+ls 
+cd Dodatni_zadatci
+ls 
+cd ..
+ls 
+ls 
+cd Lab_vjezbe/ls 
+cd Lab_vjezbe
+ls 
+open .
+ls 
+ls 
+cd -lab04
+ls 
+cd ..
+ls 
+mv -lab04 ./lab04
+ls 
+mv \-lab04 ./lab04
+ls 
+open .
+cd lab04
+ls 
+code .
+code .
+ls 
+source ~/.espressif/tools/activate_idf_v5.5.3.sh
+menuconfig 
+idf.py menuconfig 
+idf.py fullclean 
+idf.py menuconfig 
+idf.py fullclean
+idf.py set-target esp32s3
+idf.py menuconfig 
+ls 
+cd ..
+ls 
+rm -rf lab04
+ls 
+cp -r $IDF_PATH/examples/bluetooth/nimble/bleprph ./lab04
+ls 
+cd lab04
+ls 
+code .
+idf.py monitor 
+ls 
+idf.py fullclean 
+idf.py build 
+idf.py flash 
+idf.py monitor 
+clear 
+ls 
+nvim .
+nvim .
+kitten themes
+clear 
+ls 
+nvim .
+nvim .
+nvim .
+nvim .
+clear 
+ls 
+ls 
+ls 
+cd 
+cd Developer/Engine
+nvim src/Lab10
+clear 
+ls 
+nvim src/Lab10
+clear 
+nvim .
+clear 
+ls 
+nvim src/Lab10
+nvim src/Lab10
+cd Developer/Engine
+nvim src/Lab10
+clear 
+nvim src/Lab10
+nvim src/Lab10
+nvim src/Lab10
+cd 
+cd .config
+ls
+nvim .
+nvim nvim
+clear 
+cd 
+cd 
+cd .config
+ls 
+oh-my-posh
+cd zsh
+ls 
+nvim .zshrc
+clear 
+ls 
+ls 
+cd ..
+ls 
+ls 
+ls 
+cd Developer
+ls 
+cd 
+cd .config
+ls 
+nvim zsh/.zshrc
+cd 
+cd Developer/Engine
+lks 
+ls 
+nvim .
+d 
+cd 
+cd Developer/MafLib
+ls 
+nvim .
+clear 
+cd 
+cd Developer/MafLib
+nvim .
+gupd 
+cd ..
+cd ..
+ls 
+cd Prezentacije
+ls 
+ls 
+open 06_Bezicne_mreze.pdf
+d 
+cd 
+cd Desktop
+ls 
+cd blink
+ls 
+source ~/.espressif/tools/activate_idf_v5.5.3.sh
+idf.py build 
+idf.py flash 
+idf.py monitor 
+idf.py monitor 
+cd Developer
+ls 
+cd 
+cd .config
+ls 
+nvim zsh/.zshrc
+clear 
+cd 
+cd Documents/FER/Diplomski/2.\ SEM
+ls 
+cd SVERAC
+ls 
+cd Lab_vjezbe
+ls 
+cd lab04
+ls 
+cd ..
+nvim .
+cd lab04
+ls 
+nvim fix_compile_commands.py
+clear 
+ls 
+cd ..
+nvim .
+clear 
+cd lab04
+ls 
+source ~/.espressif/tools/activate_idf_v5.5.3.sh
+ls 
+ls 
+idf.py fullclean 
+idf.py build 
+idf.py flash 
+idf.py monitor 
+idf.py build 
+idf.py flash 
+idf.py monitor 
+idf.py build 
+idf.py flash 
+idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py menuconfig 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py menuconfig 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+ls 
+cd ..
+ls 
+nvim .
+clear
+ls 
+git add .
+git commit -m "Lab4"
+git push 
+cd 
+cd .config
+ls 
+nvim nvim/lua
+clear 
+kitten themes
+ls 
+ls 
+nvim kitty
+nvim kitty
+cd ..
+ls 
+nvim kitty
+kitten themes
+nvim kitty
+clear 
+ls 
+cd 
+cd .config
+nvim nvim/lua
+ls 
+nvim nvim
+ls 
+nvim nvim
+ls 
+nvim .
+clear 
+gupd 
+nvim .
+ls 
+cd lab004
+cd lab04
+ls 
+nvim main
+nvim main
+nvim .
+kitten themes 
+clear 
+ls 
+ls 
+cd 
+cd Developer/MafLib
+ls 
+nvim include
+nvim include
+clear 
+ls 
+cd 
+cd Documents/FER/Diplomski/2.\ SEM
+ls 
+cd SVERAC
+ls 
+ls 
+cd Lab_vjezbe
+ls 
+cd lab04
+ls 
+code .
+source ~/.espressif/tools/activate_idf_v5.5.3.sh
+idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+fastfetch
+clear 
+cd 
+ls 
+cd Documents/FER/Diplomski/2.\ SEM
+ls 
+cd AARSVP
+l 
+ls 
+cd Lab_vjezbe
+ls
+nvim .
+clear 
+cd ..
+ls 
+nvim .
+fastfetch
+fastfetch
+clear 
+grep -i "clang-tidy" ~/.local/state/nvim/lsp.log
+gupd 
+ ls 
+cd .ccls-cache
+ls 
+nvim .
+cd ..
+ls 
+rm -rf .ccls-cache
+ls 
+gupd 
+nvim .gitignore
+clear 
+./release_build_and_test.sh
+ls 
+mkdir measure
+cd measure
+ls 
+clear 
+ls 
+cd ..
+Äƒ­ls 
+ls 
+cd measure
+ls 
+echo "" > ~/.local/state/nvim/lsp.log
+cd 
+cd Desktop
+ls 
+cd test
+ls 
+nvim mattrans.cpp
+ls 
+cd ..
+ls 
+nvim mm
+cd test
+ls 
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mattrans.cpp
+nvim mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mattrans.cpp
+nvim mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mattrans.cpp
+nvim mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+nvim mattrans.cpp
+nvim mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+nvim mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+nvim mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+nvim mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp -framework Accelerate mattrans.cpp
+./a.out
+./a.out
+cd build/clang-release/tests/math
+ls 
+cd linalg
+ls 
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+./LinAlgTests
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp\
+
+./a.out
+./a.out
+./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -mcpu=apple-m2 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -mcpu=apple-m2 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp gemini_mm.cpp && ./a.out
+ clang++ -std=c++23 -mcpu=apple-m2 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp && ./a.out
+ clang++ -std=c++23 -mcpu=apple-m2 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp && ./a.out
+./openblas
+nvim openblas.cpp
+export OPENBLAS_NUM_THREADS=4\
+export OMP_NUM_THREADS=4
+./openblas
+./openblas
+export OPENBLAS_NUM_THREADS=8\
+export OMP_NUM_THREADS=8
+./openblas
+export OPENBLAS_CORETYPE=VORTEX\
+export OPENBLAS_VERBOSE=2
+./openblas
+clang++ -march=native -O2 openblas.cpp
+clang++ -march=native -O2 openblas.cpp -lopenblas 
+git clone https://github.com/OpenMathLib/OpenBLAS.git
+ls 
+cd
+cd Desktop/test
+ls 
+nvim mattrans.cpp
+ls 
+ls 
+nvim mattrans.cpp
+cÄƒ­ear 
+clear 
+ls 
+cd ..
+ls 
+nvim test/mattrans.cpp
+\:q
+cd mm
+ls 
+nvim mm.cpp
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp\
+
+./a.out
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp\
+
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp\
+
+nvim mm.cpp
+./a.out
+./a.out
+./a.out
+./a.out
+fastfetch
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp -S
+ls 
+nvim mm.s
+nvim claude_mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp claude_mm.cpp
+./a.out
+./a.out
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+./a.out
+nvim mm.cpp
+clang++ -std=c++23 -arch arm64 -Wall -Wextra -Wpedantic -O3 -ffast-math -march=native -funroll-loops -DNDEBUG -Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/homebrew/opt/libomp/lib -lomp mm.cpp
+./a.out
+./a.out
+nvim mm.cpp
+git add .
+git commit -m "blocking?"
+git push 
+git remote -v statuis 
+git remote add origin git@github.com:IvanDzanija/GEMM.git
+git remote change origin git@github.com:IvanDzanija/GEMM.git
+git remote -v remove origin
+git remote add origin git@github.com:IvanDzanija/GEMM.git
+ls 
+git push 
+    git push --set-upstream origin main
+nvim mm.cpp
+nvim gemini_mm.cpp
+nvim gemini_mm.cpp
+nvim .
+clear 
+d cd 
+cd 
+cd .config
+ls 
+nvim nvim
+cd 
+cd Developer
+cd MafLib
+ls 
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+gupd 
+git add .
+git commit -m "Remove MatrixMethods"
+git push 
+clear 
+ls 
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+gupd 
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+./release_build_and_test.sh
+gupd 
+ls 
+cd 
+cd Desktop/mm
+ls 
+nvim .
+ls 
+open report.pdf
+ls 
+gcc 02.c -O2 -fopenmp
+./a.out
+cd 
+cd Developer/MafLib
+lw 
+ls 
+nvim include
+nvim .
+nvim include
+nvim include
+nvim include
+nvim include
+nvim include
+clear 
+cd 
+cd 
+cd Developer/Engine
+ls 
+ls 
+find . \( -name "*.cpp" -o -name "*.hpp" -o -name "*.h" -o -name "*.cc" -o -name "*.cxx" \) -print0 \\
+| xargs -0 wc -l
+cd src
+ls 
+find . \( -name "*.cpp" -o -name "*.hpp" -o -name "*.h" -o -name "*.cc" -o -name "*.cxx" \) -print0 \\
+| xargs -0 wc -l
+cd Lab10
+find . \( -name "*.cpp" -o -name "*.hpp" -o -name "*.h" -o -name "*.cc" -o -name "*.cxx" \) -print0 \\
+| xargs -0 wc -l
+cd 
+cd Developer/MafLib
+ls 
+cd include
+ls 
+find . \( -name "*.cpp" -o -name "*.hpp" -o -name "*.h" -o -name "*.cc" -o -name "*.cxx" \) -print0 \\
+| xargs -0 wc -l
+cd ..
+ls 
+cd tests
+ls 
+find . \( -name "*.cpp" -o -name "*.hpp" -o -name "*.h" -o -name "*.cc" -o -name "*.cxx" \) -print0 \\
+| xargs -0 wc -l
+cd ..
+ls 
+cd include
+ls 
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+cd ..
+ls 
+rm -rf build
+ls 
+./debug_build_and_test.sh
+./debug_build_and_test.sh
+nvim .
+cd Developer
+cd Engine
+ls 
+gupd 
+cd ..
+cd MafLib
+ls 
+gupd 
+git push 
+cd ..
+ls 
+ls 
+cd 
+git remote -v
+ssh-keygen -t ed25519 -C "ivan.dzanija@tutamail.com"
+eval "$(ssh-agent -s)"
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+cat >> ~/.ssh/config << 'EOF'\
+\
+Host github.com\
+  AddKeysToAgent yes\
+  UseKeychain yes\
+  IdentityFile ~/.ssh/id_ed25519\
+EOF
+cat >> ~/.ssh/config << 'EOF'\
+Host github.com\
+  AddKeysToAgent yes\
+  UseKeychain yes\
+  IdentityFile ~/.ssh/id_ed25519\
+EOF
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+cd Developer/MafLib
+ls 
+git remote -v 
+git push
+git remote set-url origin git@github.com:IvanDzanija/MafLib.git
+ls 
+git push 
+git credential-osxkeychain erase <<EOF\
+protocol=https\
+host=github.com\
+EOF
+clear 
+ls 
+cd 
+cd Documents/FER/Diplomski/2.\ SEM
+cd SVERAC/Lab_vjezbe
+ls 
+git remote -v 
+git remote set-url origin git@github.com:IvanDzanija/Ubiq.git
+ls 
+gemini
+nvim .
+gupd 
+nvim .
+gupd 
+nvim .
+cd lab0
+cd lab04
+ls 
+source ~/.espressif/tools/activate_idf_v5.5.3.sh
+idf.py build && idf.py flash && idf.py monitor 
+gupd 
+ls 
+open .
+idf.py build && idf.py flash && idf.py monitor 
+code .
+cd ..
+cd lab01
+ls 
+rm -rf build.clang
+cd ..
+ls 
+gupd 
+cd lab04
+ls 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor 
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+idf.py build && idf.py flash && idf.py monitor
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+ls 
+open .
+idf.py fullclean 
+idf.py build && idf.py flash && idf.py monitor
+gupd 
+open .
+gupd 
+cd ..
+ls 
+gemini
+gupd 
+clear 
+cd 
+cd Documents/FER/Diplomski/2.\ SEM
+cd DISMAT2
+ls 
+cd Skripta
+ls 
+open DISMAT2.pdf
+clear 
+ls 
+brew update 
+brew upgrade 
+clear 
+ls 
+cd 
+cd .config
+ls 
+nvim nvim/lua
+swift run 
+swift test 
+swift test 
+swift test 
+ls 
+clear 
+/Users/dzanijaivan/Developer/Engine/build/Lab10/Release/Lab10 ; exit;
+ls 
+lÄƒ­s 
+ls 
+cd 
+cd Developer
+ls 
+nvim .
+clear 
+ls 
+ls 
+/Users/dzanijaivan/Developer/Engine/build/Lab10/Debug/Lab10 ; exit;
