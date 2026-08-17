@@ -30,7 +30,6 @@ return {
 				"clangd",
 				"ruff",
 				"lua_ls",
-				"texlab",
 				"glsl_analyzer",
 				-- "ty",
 			},
@@ -41,7 +40,6 @@ return {
 				"stylua", -- lua formatter
 				"ruff",
 				"clang-format",
-				"texlab",
 				"prettier",
 			},
 		})
