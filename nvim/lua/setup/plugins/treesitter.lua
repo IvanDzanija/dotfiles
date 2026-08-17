@@ -2,58 +2,77 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	event = { "BufReadPre", "BufNewFile" },
 	build = ":TSUpdate",
-	dependencies = {
-		"windwp/nvim-ts-autotag",
-	},
-	config = function()
-		-- import nvim-treesitter plugin
-		local treesitter = require("nvim-treesitter.configs")
 
-		-- configure treesitter
-		treesitter.setup({ -- enable syntax highlighting
-			highlight = {
-				enable = true,
-			},
-			-- enable indentation
-			indent = { enable = false },
-			-- enable autotagging (w/ nvim-ts-autotag plugin)
-			autotag = {
-				enable = true,
-			},
-			-- ensure these language parsers are installed
-			ensure_installed = {
-				"json",
+	config = function()
+		require("nvim-treesitter").setup()
+
+		require("nvim-treesitter").install({
+			"json",
+			"javascript",
+			"yaml",
+			"markdown",
+			"markdown_inline",
+			"bash",
+			"lua",
+			"vim",
+			"dockerfile",
+			"gitignore",
+			"query",
+			"vimdoc",
+			"c",
+			"cpp",
+			"python",
+			"cuda",
+			"latex",
+			"haskell",
+			"ocaml",
+			"erlang",
+			"rust",
+		})
+
+		vim.api.nvim_create_autocmd("FileType", {
+			pattern = {
+				"c",
+				"cpp",
+				"cuda",
+				"lua",
+				"vim",
+				"vimdoc",
+				"bash",
+				"python",
 				"javascript",
+				"javascriptreact",
+				"typescript",
+				"typescriptreact",
+				"json",
 				"yaml",
 				"markdown",
 				"markdown_inline",
-				"bash",
-				"lua",
-				"vim",
-				"dockerfile",
-				"gitignore",
-				"query",
-				"vimdoc",
-				"c",
-				"cpp",
-				"python",
-				"cuda",
 				"latex",
 				"haskell",
 				"ocaml",
 				"erlang",
-				"zathurarc",
 				"rust",
+				"query",
+				"dockerfile",
+				"gitignore",
 			},
-			incremental_selection = {
-				enable = true,
-				keymaps = {
-					init_selection = "<C-space>",
-					node_incremental = "<C-space>",
-					scope_incremental = false,
-					node_decremental = "<bs>",
-				},
-			},
+			callback = function()
+				vim.treesitter.start()
+			end,
 		})
+
+		-- Keep your incremental selection mappings
+		vim.keymap.set("n", "<C-space>", function()
+			vim.treesitter.select()
+		end)
+
+		vim.keymap.set("x", "<C-space>", function()
+			vim.treesitter.select()
+		end)
+
+		vim.keymap.set("x", "<bs>", function()
+			vim.treesitter.select_prev()
+		end)
 	end,
 }

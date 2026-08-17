@@ -1,0 +1,11 @@
+{
+  "trustedformulae": [
+    "jandedobbeleer/oh-my-posh/oh-my-posh"
+  ],
+  "trustedtaps": [
+    "jandedobbeleer/oh-my-posh"
+  ],
+  "trustedcasks": [
+    "nikitabobko/tap/aerospace"
+  ]
+}
