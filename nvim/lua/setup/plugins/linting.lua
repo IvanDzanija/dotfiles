@@ -6,6 +6,7 @@ return {
 
 		lint.linters_by_ft = {
 			python = { "ruff" },
+			swift = { "swiftlint" },
 			--		markdown = { "vale" },
 			--		text = { "vale" },
 			--		rst = { "vale" },

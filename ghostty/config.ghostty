@@ -1,5 +1,7 @@
-theme = cyberdream-light
+# theme = cyberdream-light
+# theme = Rose Pine Dawn
+theme = TokyoNight Moon
 font-size = 15
 font-thicken
-background-opacity = 0.90
+background-opacity = 0.95
 clipboard-paste-protection = false

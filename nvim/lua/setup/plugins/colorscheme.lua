@@ -1,11 +1,11 @@
 return {
-	-- "folke/tokyonight.nvim",
+	"folke/tokyonight.nvim",
 	-- 	"Tsuzat/NeoSolarized.nvim",
 	-- "maxmx03/solarized.nvim",
 	--"catppuccin/nvim",
 	--"rebelot/kanagawa.nvim",
 	-- 	"datsfilipe/vesper.nvim",
-	"scottmckendry/cyberdream.nvim",
+	--	"scottmckendry/cyberdream.nvim",
 	-- 	"bluz71/vim-moonfly-colors",
 	-- 	"Mofiqul/vscode.nvim",
 	-- 	"savq/melange-nvim",
@@ -19,30 +19,31 @@ return {
 	lazy = false,
 	transparent = true,
 	config = function()
-		--vim.o.termguicolors = true
+		vim.o.termguicolors = true
 		--vim.o.background = "light"
 		--	vim.cmd("colorscheme moonfly")
 		-- vim.cmd("colorscheme vscode")
-		-- vim.cmd("colorscheme tokyonight-storm")
+		vim.cmd("colorscheme tokyonight-moon")
 		--vim.cmd("colorscheme NeoSolarized")
 		-- vim.cmd("colorscheme vesper")
+
 		-- Cyberdream
-		require("cyberdream").setup({
-			variant = "light",
-			transparent = true,
-			italic_comments = true,
-			hide_fillchars = true,
-			terminal_colors = false,
-			cache = true,
-			borderless_pickers = true,
-			overrides = function(c)
-				return {
-					CursorLine = { bg = c.bg },
-					CursorLineNr = { fg = c.magenta },
-				}
-			end,
-		})
-		vim.cmd("colorscheme cyberdream")
+		--	require("cyberdream").setup({
+		--		variant = "light",
+		--		transparent = true,
+		--		italic_comments = true,
+		--		hide_fillchars = true,
+		--		terminal_colors = false,
+		--		cache = true,
+		--		borderless_pickers = true,
+		--		overrides = function(c)
+		--			return {
+		--				CursorLine = { bg = c.bg },
+		--				CursorLineNr = { fg = c.magenta },
+		--			}
+		--		end,
+		--	})
+		--	vim.cmd("colorscheme cyberdream")
 
 		-- vim.cmd("colorscheme kanagawa")
 		--		vim.cmd("colorscheme wildcharm")

@@ -1,5 +1,6 @@
 {
   "trustedformulae": [
+    "anomalyco/tap/opencode",
     "jandedobbeleer/oh-my-posh/oh-my-posh"
   ],
   "trustedtaps": [
