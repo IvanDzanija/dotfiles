@@ -8,6 +8,7 @@ return {
 				["*"] = { "trim_whitespace", "trim_newlines" },
 				lua = { "stylua" },
 				python = { "ruff_format" },
+				--				swift = { "swift-format" },
 				swift = { "swiftformat" },
 				c = { "clang-format" },
 				glsl = { "clang-format" },
@@ -29,18 +30,15 @@ return {
 					command = "clang-format",
 					stdin = true,
 				},
+				["swift-format"] = {
+					command = "swift",
+					args = { "format" },
+					stdin = true,
+				},
 				["ruff_format"] = {
 					command = "ruff",
 					args = { "format", "--stdin-filename", "$FILENAME", "--quiet" },
 					stdin = true,
-				},
-				["latexindent"] = {
-					command = "latexindent",
-					args = {
-						"-m",
-						"-w",
-					},
-					stdin = false,
 				},
 				["prettier"] = {
 					command = "prettier",

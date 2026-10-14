@@ -1,7 +1,10 @@
 # theme = cyberdream-light
 # theme = Rose Pine Dawn
-theme = TokyoNight Moon
+# theme = TokyoNight Moon
+theme = Catppuccin Latte
+# theme = Rose Pine Dawn
+# theme = Everforest Light Med
 font-size = 15
 font-thicken
-background-opacity = 0.95
+background-opacity = 0.90
 clipboard-paste-protection = false

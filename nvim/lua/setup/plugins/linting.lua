@@ -7,11 +7,6 @@ return {
 		lint.linters_by_ft = {
 			python = { "ruff" },
 			swift = { "swiftlint" },
-			--		markdown = { "vale" },
-			--		text = { "vale" },
-			--		rst = { "vale" },
-			--		asciidoc = { "vale" },
-			--		tex = { "vale" },
 		}
 
 		local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })
