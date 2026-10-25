@@ -3,10 +3,10 @@ return {
 	-- "oxfist/night-owl.nvim",
 	-- "Tsuzat/NeoSolarized.nvim",
 	-- "maxmx03/solarized.nvim",
-	"catppuccin/nvim",
+	-- "catppuccin/nvim",
 	-- "rebelot/kanagawa.nvim",
 	--	"datsfilipe/vesper.nvim",
-	-- "scottmckendry/cyberdream.nvim",
+	"scottmckendry/cyberdream.nvim",
 	-- 	"bluz71/vim-moonfly-colors",
 	-- 	"Mofiqul/vscode.nvim",
 	-- 	"savq/melange-nvim",
@@ -32,22 +32,22 @@ return {
 		-- vim.cmd("colorscheme night-owl")
 
 		-- Cyberdream
-		--	require("cyberdream").setup({
-		--		variant = "light",
-		--		transparent = true,
-		--		italic_comments = true,
-		--		hide_fillchars = true,
-		--		terminal_colors = false,
-		--		cache = true,
-		--		borderless_pickers = true,
-		--		overrides = function(c)
-		--			return {
-		--				CursorLine = { bg = c.bg },
-		--				CursorLineNr = { fg = c.magenta },
-		--			}
-		--		end,
-		--	})
-		--	vim.cmd("colorscheme cyberdream")
+		require("cyberdream").setup({
+			variant = "light",
+			transparent = false,
+			italic_comments = true,
+			hide_fillchars = true,
+			terminal_colors = false,
+			cache = false,
+			borderless_pickers = true,
+			overrides = function(c)
+				return {
+					CursorLine = { bg = c.bg },
+					CursorLineNr = { fg = c.magenta },
+				}
+			end,
+		})
+		vim.cmd("colorscheme cyberdream")
 
 		-- vim.cmd("colorscheme kanagawa")
 		--		vim.cmd("colorscheme wildcharm")
@@ -60,6 +60,6 @@ return {
 		-- vim.cmd("colorscheme gruber-darker")
 		--	vim.cmd("colorscheme melange")
 		--vim.cmd("colorscheme material")
-		vim.cmd("colorscheme catppuccin-latte")
+		-- vim.cmd("colorscheme catppuccin-latte")
 	end,
 }

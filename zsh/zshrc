@@ -18,6 +18,8 @@ export PATH="/opt/homebrew/opt/icu4c@76/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/icu4c@76/lib/pkgconfig"
+export VCPKG_ROOT="$HOME/vcpkg"
+export PATH="$VCPKG_ROOT:$PATH"
 
 # Redirect completion dump file to /tmp
 ZDOTDIR=${ZDOTDIR:-$HOME}
