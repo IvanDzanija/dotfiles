@@ -22,7 +22,7 @@
     "theme": {
         "mode": "dark",
         "light": "One Light",
-        "dark": "One Dark"
+        "dark": "macOS Classic Dark"
     },
     "prettier": {
         // Use regular Prettier json configuration:
@@ -54,7 +54,7 @@
     },
     "tab_size": 2,
     "buffer_font_weight": 500,
-    "buffer_font_family": "SFMono Nerd Font",
+    "buffer_font_family": "JetBrains Mono NL",
     "format_on_save": "on",
     "vim_mode": true,
     "relative_line_numbers": "enabled",

@@ -98,7 +98,7 @@ return {
 				"--log=verbose",
 			},
 			filetypes = { "c", "cpp", "objc", "objcpp" },
-			init_options = { fallbackFlags = { "-std=c++23" } },
+			--init_options = { fallbackFlags = { "-std=c++23" } },
 		})
 
 		vim.lsp.config("sourcekit", {

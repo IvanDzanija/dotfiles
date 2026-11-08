@@ -1,65 +1,89 @@
-return {
-	-- "folke/tokyonight.nvim",
-	-- "oxfist/night-owl.nvim",
-	-- "Tsuzat/NeoSolarized.nvim",
-	-- "maxmx03/solarized.nvim",
-	-- "catppuccin/nvim",
-	-- "rebelot/kanagawa.nvim",
-	--	"datsfilipe/vesper.nvim",
-	"scottmckendry/cyberdream.nvim",
-	-- 	"bluz71/vim-moonfly-colors",
-	-- 	"Mofiqul/vscode.nvim",
-	-- 	"savq/melange-nvim",
-	-- 	"navarasu/onedark.nvim",
-	-- 	"marko-cerovac/material.nvim",
-	-- 	"blazkowolf/gruber-darker.nvim",
-	--	"cemkagank/apple.nvim",
-	-- "rose-pine/neovim",
-	-- 	"EdenEast/nightfox.nvim",
-	-- "sainnhe/everforest",
-	--  "ellisonleao/gruvbox.nvim",
-	priority = 1000,
-	lazy = false,
-	transparent = true,
-	config = function()
-		vim.o.termguicolors = true
-		vim.o.background = "light"
-		--	vim.cmd("colorscheme moonfly")
-		-- vim.cmd("colorscheme vscode")
-		-- vim.cmd("colorscheme tokyonight-moon")
-		--vim.cmd("colorscheme NeoSolarized")
-		-- vim.cmd("colorscheme vesper")
-		-- vim.cmd("colorscheme night-owl")
+-- ══════════════════════════════════════════════════════════════
+--  Set which theme to use here. All themes below are installed,
+--  but ONLY the one named in `active_theme` is loaded. To try
+--  another theme, just change this one line — no commenting needed.
+--  Use the `name` of an entry from the `themes` list.
+-- ══════════════════════════════════════════════════════════════
+local active_theme = "cyberdream"
 
-		-- Cyberdream
-		require("cyberdream").setup({
-			variant = "light",
-			transparent = false,
-			italic_comments = true,
-			hide_fillchars = true,
-			terminal_colors = false,
-			cache = false,
-			borderless_pickers = true,
-			overrides = function(c)
-				return {
-					CursorLine = { bg = c.bg },
-					CursorLineNr = { fg = c.magenta },
-				}
-			end,
-		})
-		vim.cmd("colorscheme cyberdream")
-
-		-- vim.cmd("colorscheme kanagawa")
-		--		vim.cmd("colorscheme wildcharm")
-		-- vim.cmd("colorscheme solarized")
-		--vim.cmd("colorscheme gruvbox")
-		-- vim.cmd("colorscheme everforest")
-		--vim.cmd("colorscheme rose-pine-dawn")
-		-- 	vim.cmd("colorscheme apple")
-		--vim.cmd("colorscheme dawnfox")
-		-- vim.cmd("colorscheme gruber-darker")
-		--	vim.cmd("colorscheme melange")
-		--vim.cmd("colorscheme material")
-		-- vim.cmd("colorscheme catppuccin-latte")
-	end,
+-- name  : colorscheme name passed to :colorscheme
+-- spec  : the lazy.nvim plugin spec for that colorscheme
+-- setup : optional setup() to run before applying the colorscheme
+local themes = {
+	{ name = "tokyonight-moon", spec = { "folke/tokyonight.nvim" } },
+	{ name = "night-owl", spec = { "oxfist/night-owl.nvim" } },
+	{ name = "NeoSolarized", spec = { "Tsuzat/NeoSolarized.nvim" } },
+	{ name = "solarized", spec = { "maxmx03/solarized.nvim" } },
+	{ name = "catppuccin-latte", spec = { "catppuccin/nvim", name = "catppuccin" } },
+	{ name = "kanagawa", spec = { "rebelot/kanagawa.nvim" } },
+	{ name = "vesper", spec = { "datsfilipe/vesper.nvim" } },
+	{
+		name = "cyberdream",
+		spec = { "scottmckendry/cyberdream.nvim" },
+		setup = function()
+			require("cyberdream").setup({
+				variant = "dark",
+				transparent = false,
+				italic_comments = true,
+				hide_fillchars = true,
+				terminal_colors = false,
+				cache = false,
+				borderless_pickers = true,
+				overrides = function(c)
+					return {
+						CursorLine = { bg = c.bg },
+						CursorLineNr = { fg = c.magenta },
+					}
+				end,
+			})
+		end,
+	},
+	{ name = "moonfly", spec = { "bluz71/vim-moonfly-colors", name = "vim-moonfly-colors" } },
+	{ name = "vscode", spec = { "Mofiqul/vscode.nvim" } },
+	{ name = "melange", spec = { "savq/melange-nvim" } },
+	{ name = "onedark", spec = { "navarasu/onedark.nvim" } },
+	{
+		name = "material",
+		spec = { "marko-cerovac/material.nvim" },
+		setup = function()
+			require("material").setup()
+		end,
+	},
+	{ name = "gruber-darker", spec = { "blazkowolf/gruber-darker.nvim" } },
+	{ name = "apple", spec = { "cemkagank/apple.nvim" } },
+	{ name = "rose-pine-dawn", spec = { "rose-pine/neovim", name = "rose-pine" } },
+	{ name = "carbonfox", spec = { "EdenEast/nightfox.nvim" } },
+	{ name = "everforest", spec = { "sainnhe/everforest" } },
+	{ name = "gruvbox", spec = { "ellisonleao/gruvbox.nvim" } },
 }
+
+-- Build the final lazy.nvim spec list: every theme gets installed,
+-- but only the active one is loaded eagerly and activated.
+local specs = {}
+for _, theme in ipairs(themes) do
+	local is_active = theme.name == active_theme
+
+	local spec = vim.deepcopy(theme.spec)
+	-- All themes load right after startup (VeryLazy), so every
+	-- colorscheme is available inside a session: you can freely run
+	-- `:colorscheme <name>` to try themes. The active one below is
+	-- loaded eagerly at startup as the default.
+	if not is_active then
+		spec.event = "VeryLazy"
+	end
+	if is_active then
+		spec.priority = 1000
+		spec.config = function()
+			vim.o.termguicolors = true
+			vim.o.background = "dark"
+			if theme.setup then
+				theme.setup()
+			end
+			vim.cmd("colorscheme " .. theme.name)
+		end
+	end
+
+	table.insert(specs, spec)
+end
+
+return specs

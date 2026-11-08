@@ -1,10 +1,13 @@
-theme = cyberdream-light
+# theme = cyberdream-light
+theme = cyberdream
 # theme = Rose Pine Dawn
 # theme = TokyoNight Moon
+# theme = Kanagawa Wave
 # theme = Catppuccin Latte
 # theme = Rose Pine Dawn
 # theme = Everforest Light Med
+font-family = SF Mono
 font-size = 15
-font-thicken
+# font-thicken
 background-opacity = 0.95
 clipboard-paste-protection = false
